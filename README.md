@@ -381,11 +381,11 @@ Para información sobre las convenciones de HTML se usará como referencia [este
 Para información sobre las convenciones de CSS se usará como referencia [este enlace](https://google.github.io/styleguide/htmlcssguide.html#CSS).
 
 - **ID and Class Naming**: Usar nombres de clases y ID significativos.
-  ```[css]
+```[css]
     #gallery {} 
     #login {} 
     .video {} 
-    ```
+```
 
 - **ID and Class Name Style**: Usar nombres cortos pero descriptivos.
 ```[css]
@@ -632,10 +632,32 @@ Scenario: Scenario 2
 
 ### 5.1.4. Software Deployment Configuration
 
+Creación del Repositorio Remoto en GitHub:
+Se inicia el proceso creando un repositorio remoto en GitHub.
+
+Inicialización del Repositorio Local:
+Posteriormente, se inicializa el repositorio local utilizando el comando git init.
+
+Añadir el Repositorio Remoto y Subir Archivos:
+Se añade el repositorio remoto utilizando el comando git remote add origin [URL], donde [URL] es la dirección del repositorio remoto en GitHub. Luego, los archivos son subidos al repositorio remoto utilizando el comando git push -u origin main.
+
+Configuración de GitHub Pages:
+Nos dirigimos al repositorio remoto en GitHub y accedemos a la sección de "Settings". Dentro de "Settings", navegamos hacia la sección "Pages", la cual contiene la configuración para desplegar el landing page y la aplicación web frontend.
+
+Selección del Branch y Ruta de Despliegue:
+En la configuración de GitHub Pages, seleccionamos el branch "main" y especificamos la ruta de despliegue como "/(root)".
+
+Guardar Configuración:
+Luego de configurar los ajustes necesarios, guardamos la configuración.
+
+Confirmación del Despliegue Exitoso:
+Una vez completado el proceso, podemos confirmar que el despliegue se realizó correctamente dirigiéndonos a la sección de "Environments" en GitHub y verificando el sitio web desplegado.
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
-#### 5.2.1.1. Sprint Planning 1
 
+#### 5.2.1.1. Sprint Planning 1
+El objetivo principal del sprint 1 consiste en llevar a cabo la implementación y el despliegue inicial de nuestra landing page. Esta página tiene como finalidad atraer la atención de posibles clientes al presentarles las características y ventajas principales de nuestro servicio.
 #### 5.2.1.2. Sprint Backlog 1
 
 #### 5.2.1.3. Development Evidence for Sprint Review
