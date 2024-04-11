@@ -216,11 +216,88 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 4.8.1. Database Diagram
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
+
+En esta sección, el equipo define las determinaciones y acuerdos que garantizarán la uniformidad a lo largo de todo el ciclo de desarrollo. Esto implica la incorporación de segmentos específicos dedicados a la gestión del código fuente, la configuración del entorno de desarrollo y la configuración de implementación.
+
 ### 5.1.1. Software Development Environment Configuration
+
+La tabla siguiente detalla los nombres de los productos, su propósito dentro del proyecto y proporciona enlaces de referencia o descarga para cada uno de los productos de software necesarios para la colaboración en todo el ciclo de vida del producto digital. Estos incluyen actividades como gestión de proyectos, gestión de requisitos, diseño de UX/UI del producto, desarrollo de software, pruebas de software, implementación de software y documentación de software, todo ello teniendo en cuenta las restricciones indicadas sobre los productos de software y las herramientas permitidas para su uso.
+
+| Actividad             | Propósito de uso       | Nombre del producto | Descripción                                                              |
+|-----------------------|------------------------|---------------------|--------------------------------------------------------------------------|
+| Project Management    | Gestión general        | Microsoft Office    | Suite de ofimática que permite trabajar con documentos de texto y presentaciones.              |
+| Project Management    | Gestión general        | Google Drive        | Servicio en la nube que permite compartir documentos y avances de cada entregable.              |
+| Project Management    | Gestión general        | Discord             | Servicio de mensajería instantánea que permite tener reuniones internas semanales.               |
+| Project Management    | Gestión general        | Whatsapp            | Servicio de mensajería instantánea que se utiliza para tener conversaciones frecuentes.           |
+| Project Management    | Gestión de proyectos   | Trello              | Software de administración de proyectos que facilita el seguimiento de las tareas de cada integrante. |
+| Requirements Management| Elaboración de artefactos | Miro            | Plataforma colaborativa que permite utilizar pizarras interactivas con múltiples templates.     |
+| Requirements Management| Elaboración de artefactos | Meet            | Software de videochat que permite entrevistar a los diferentes públicos objetivos.              |
+| Requirements Management| Elaboración de artefactos | UXPressia       | Plataforma colaborativa que permite crear user personas e integrarlos con múltiples mapas.       |
+| Requirements Management| Elaboración de artefactos | Structurizr     | Colección de herramientas que permite diagramar modelos C4 de nuestros productos de manera colaborativa. |
+| Requirements Management| Elaboración de artefactos | Vertabelo       | Plataforma colaborativa que permite crear diagramas de base de datos.                             |
+| Requirements Management| Elaboración de artefactos | LucidChart      | Plataforma colaborativa que permite crear diversos tipos de diagramas con templates.             |
+| Product UX/UI Design  | Diseño de UX/UI        | Figma               | Herramienta colaborativa que permite desarrollar wireframes y mockups.                             |
+| Product UX/UI Design  | Diseño de UX/UI        | LucidChart          | Herramienta colaborativa que permite desarrollar wireframes y mockups con templates.               |
+| Software Development  | Gestión general        | Git                 | Software de control de versiones en proyectos colaborativos.             |
+| Software Development  | Gestión general        | Node.js             | Entorno de ejecución de JavaScript que permite instalar bibliotecas externas de manera sencilla. |
+| Software Development  | Gestión general        | GitHub              | Repositorio colaborativo en la nube que trabaja con Git en la gestión de proyectos.               |
+| Software Development  | Gestión general        | GitHub Desktop      | Herramienta de escritorio que permite el manejo interactivo de versiones con GitHub.             |
+| Software Development  | Frontend               | HTML5               | Lenguaje de marcado para la elaboración de páginas web.                   |
+| Software Development  | Frontend               | CSS3                | Lenguaje de diseño gráfico para crear la presentación de un documento escrito en HTML.         |
+| Software Development  | Frontend               | JavaScript          | Lenguaje de programación orientado a objetos dinámico que permite, en nuestro caso, implementar funcionalidades a un documento HTML. |
+| Software Development  | Frontend               | WebStorm            | IDE que utilizaremos para trabajar con JavaScript.                          |
+| Software Development  | Frontend               | Vue                 | Framework de Javascript para desarrollar SPA.                            |
+| Software Development  | Frontend               | Bootstrap           | Herramienta estándar de escritorio para el desarrollo de Vue.js.         |
+| Software Development  | Backend                | C#                  | Lenguaje de programación multiparadigma desarrollado por Microsoft como parte de su plataforma .NET. |
+| Software Development  | Backend                | Webstorm            | IDE que utilizaremos para trabajar con C#.                             |
+| Software Testing      | Pruebas de software    | Gherkin             | Herramienta de software que permite correr test automatizados en lenguaje plano.                |
+| Software Deployment   | Despliegue de software | GitHub Pages        | Plataforma que permite hacer deployments sencillos desde un repositorio de GitHub.               |
 
 ### 5.1.2. Source Code Management
 
+Enlace a la organización del equipo “InnovaTec” en GitHub, en la cual se incluirán todos los repositories del Proyecto: https://github.com/WX56-GRUPO1-EASYPOST
+
+Enlace al Landing Page Repository: https://github.com/WX56-GRUPO1-EASYPOST/EasyPost-LandingPage 
+
+Enlace al Frontend Web Application Repository:https://github.com/WX56-GRUPO1-EASYPOST/EasyPost-FrontendWebApp
+
+Enlace al Backend Web Services Repository: https://github.com/WX56-GRUPO1-EASYPOST/EasyPost-BackendWebServices	
+
+### Master branch
+La rama Master es la rama principal del proyecto, que contiene el código actualmente en producción.
+
+### Develop branch
+La rama Develop es donde se integran las últimas actualizaciones y cambios destinados para la próxima versión del proyecto.
+
+### Release branch
+La rama Release se utiliza para preparar una nueva versión del producto. Aquí se solucionan errores y se permiten que la rama Develop reciba más actualizaciones.
+
+### Feature branches
+Las ramas Feature se emplean para desarrollar nuevas funcionalidades o características del producto que se agregarán en la próxima versión o en versiones futuras. Estas funcionalidades se fusionan eventualmente con la rama Develop.
+
+### Hotfix branch
+La rama Hotfix se usa para solucionar rápidamente posibles errores en la versión en producción del producto. Permite preparar soluciones rápidas mientras el resto del equipo continúa trabajando.
+
+### Semantic Versioning
+El versionado semántico sigue un formato X.Y.Z, donde X es la versión principal, Y es la versión secundaria y Z es la versión de parche. Las versiones iniciales tienen la forma 0.X.Y. Los incrementos en Z son para correcciones de errores compatibles con versiones anteriores, Y para nuevas funcionalidades compatibles con versiones anteriores, y X para cambios incompatibles con versiones anteriores.
+
+### Conventional Commits
+Los commits siguen una estructura específica, utilizando la siguiente plantilla: git commit -m "<type>[optional scope]: <title>" -m "<description>". Esta convención se basa en el artículo de Conventional Commits 1.0.0.
+
+### Types
+- add: Indica la adición de archivos o carpetas.
+- fix: Se utiliza para confirmar la corrección de un error en el código.
+- feat: Se emplea para confirmar la adición de una nueva funcionalidad.
+- test: Indica la adición de archivos de prueba.
+- BREAKING CHANGE: Se utiliza para confirmar la introducción de un cambio importante en el código.
+
+### optional scope
+[ámbito opcional]: Se utilizará solo en las ramas release, hotfix y master para indicar la versión del producto.
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Como convención general, todo el código realizado por los miembros del equipo debe redactarse en completo inglés.
+
 
 ### 5.1.4. Software Deployment Configuration
 
