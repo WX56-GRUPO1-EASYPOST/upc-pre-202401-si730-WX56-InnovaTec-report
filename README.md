@@ -168,9 +168,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1 Descripción de la Startup
-Somos EasyPosts, una startup conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas. Nos encargamos de solucionar problemáticas con ayuda de herramientas tecnológicas con el fin de automatizar y facilitar procesos.
+Somos InnovaTec, una startup conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas. Nos encargamos de solucionar problemáticas con ayuda de herramientas tecnológicas con el fin de automatizar y facilitar procesos.
 
-En esta oportunidad presentamos una aplicación web la cual ofrece el servicio de instalación de postes en lugares solicitados por nuestros clientes. Nuestra aplicación ofrece transparencia a lo largo de este proceso para garantizar confianza, además de ofrecer ventajas dentro de nuestra aplicación para que los usuarios registrados se sientan conformes y cuenten con nosotros en otra oportunidad.
+En esta oportunidad presentamos EasyPost, una aplicación web la cual ofrece herramientas y trámites para realizar seguimiento a proyectos de instalación de postes en lugares solicitados por nuestros clientes. Nuestra aplicación ofrece transparencia a lo largo de este proceso para garantizar confianza, además de ofrecer ventajas dentro de nuestra aplicación para que los usuarios registrados se sientan conformes y cuenten con nosotros en otra oportunidad.
 
 **Misión:** Facilitar y optimizar este proceso con ayuda de nuestra plataforma. Nuestra startup se compromete a brindar transparencia, eficiencia y confianza a nuestros clientes. 
 
