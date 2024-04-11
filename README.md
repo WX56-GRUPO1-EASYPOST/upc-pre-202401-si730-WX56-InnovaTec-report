@@ -195,8 +195,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     - [Vue](#vue)
     - [C#](#c)
     - [Gherkin](#gherkin)
-- [----------------------------------------------------------](#----------------------------------------------------------)
-- [Separator Comment](#separator-comment)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
   - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
@@ -364,20 +362,20 @@ Para información sobre las convenciones de HTML se usará como referencia [este
   <body> 
     <p>Esto es un párrafo</p> 
     <p>Esto es otro párrafo</p> 
-<body> 
+    <body> 
 ```
 
 - **Use Lowercase Attribute Names**: Se recomienda usar minúsculas para los nombres de los atributos HTML.
   
   ```[html]
   <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>  
-```
+  ```
 
 - **Always Specify alt, width, and height for Images**: Es recomendado especificar alt, width y height para imágenes.
 
   ```[html]
   <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">  
-```
+  ```
 
 ### CSS
 Para información sobre las convenciones de CSS se usará como referencia [este enlace](https://google.github.io/styleguide/htmlcssguide.html#CSS).
@@ -387,74 +385,95 @@ Para información sobre las convenciones de CSS se usará como referencia [este 
   #gallery {} 
 #login {} 
 .video {} 
-```
+    ```
 
 - **ID and Class Name Style**: Usar nombres cortos pero descriptivos.
+```[css]
   #nav {} 
-.author {} 
+.author {}
+``` 
 
 - **Shorthand Properties**: Usar propiedades abreviadas CSS cuando sea posible.
+```[css]
   border-top: 0; 
 font: 100%/1.6 palatino, georgia, serif; 
 padding: 0 1em 2em; 
+```
 
 - **0 and Units**: Evitar unidades después de usar 0.
+```[css]
   margin: 0; 
 padding: 0; 
+```
 
 - **ID and Class Name Delimiters**: Separar palabras en ID y clases con guiones.
+```[css]
   #video-id {} 
 .ads-sample {} 
-
+```
 - **Declaration Order**: Colocar declaraciones en orden alfabético.
+```[css]
   background: fuchsia; 
 border: 1px solid; 
 border-radius: 4px; 
 color: black; 
 text-align: center; 
 text-indent: 2em; 
-
+```
 
 - **Selector and Declaration Separation**: Separar selectores y declaraciones en nuevas líneas.
+```[css]
  h1, h2, h3 { 
     font-weight: normal; 
     line-height: 1.2; 
 } 
-
-
+```
 
 ### JavaScript
 Para información sobre las convenciones de JavaScript se usará como referencia [este enlace](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript#creating_arrays).
 
 - **Use expanded syntax**: Cada línea de JavaScript en una nueva línea.
+```[javascript]
   function myFunc() { 
     console.log('Hello!');  
 }; 
+```
 
 - **Variable naming**: Usar lowerCamelCase para el nombre de variables.
+```[javascript]
   let playerScore = 0; 
 let speed = distance / time; 
+```
 
 - **Declaring variables**: Usar let y const, evitar var.
+```[javascript]
   const myName = 'Chris'; 
 console.log(myName); 
 let myAge = '40'; 
 myAge++; 
 console.log('Happy birthday!');  
+```
 
 - **Use strict equality**: Siempre usar igualdad estricta.
+```[javascript]
   name === 'Chris'; 
 age !== 25; 
+```
 
 - **Function naming**: Usar lowerCamelCase para el nombre de funciones.
+```[javascript]
   function sayHello() { 
     alert('Hello!'); 
 }; 
+```
 
 - **Creating objects**: Usar literales para la creación de objetos.
+```[javascript]
   let myObject = {}; 
+```
 
 - **Object classes**: Usar la sintaxis de clase de ES para objetos.
+```[javascript]
   class Person { 
   constructor(name, age, gender) {  
     this.name = name; 
@@ -465,21 +484,25 @@ age !== 25;
     console.log(`Hi! I'm ${this.name}`); 
   }; 
 } 
+```
 
 - **Creating arrays**: Usar literales para la creación de arrays.
+```[javascript]
   let myArray = [ ]; 
-
+```
 
 ### Vue
 Para información sobre las convenciones de Vue se usará como referencia [este enlace](https://vuejs.org/v2/style-guide/).
 
 - **Multi-word component names**: Nombres de componentes de varias palabras.
+```[javascript]
   export default { 
   name: 'TodoItem', 
   // ... 
 } 
-
+```
 - **Component data**: La propiedad data de un componente debe ser una función que devuelva un objeto.
+```[javascript]
   export default { 
   data () { 
     return { 
@@ -487,13 +510,15 @@ Para información sobre las convenciones de Vue se usará como referencia [este 
     } 
   } 
 } 
-
+```
 - **Prop definitions**: La definición de props debe ser detallada.
+```[javascript]
   props: { 
   status: String 
 } 
-
+```
 - **Keyed v-for**: Siempre usar key con v-for.
+```[javascript]  
   <ul> 
   <li 
     v-for="todo in todos" 
@@ -502,17 +527,19 @@ Para información sobre las convenciones de Vue se usará como referencia [este 
     {{ todo.text }} 
   </li> 
 </ul> 
-
+```
 - **Prop name casing**: Usar camelCase para el nombre de los props.
+```[javascript]
   props: { 
   greetingText: String 
 } 
-
+```
 
 ### C#
 Para información sobre las convenciones de C# se usará como referencia.
 
 - **Pascal case**: Usar PascalCasing para class, record o struct.
+```[csharp]
   public class DataService 
 { 
 } 
@@ -524,8 +551,9 @@ public record PhysicalAddress(
 public struct ValueCoordinate 
 { 
 } 
-
+```
 - **Camel case**: Usar camelCasing para atributos o campos privados.
+```[csharp]
   public class DataService 
 { 
     private IWorkerQueue _workerQueue;  
@@ -533,54 +561,63 @@ public struct ValueCoordinate
 public T SomeMethod<T>(int someNumber, bool isValid)  
 { 
 } 
-
+```
 - **String interpolation**: Usar string interpolation para concatenar cadenas.
+```[csharp]
   string displayName = $"{nameList[n].LastName}, {nameList[n].FirstName}";  
-
+```
 - **Implicitly typed local variables**: Usar tipado implícito cuando sea posible.
+```[csharp]
   var var1 = "This is clearly a string.";
 var var2 = 27;
-
+```
 
 - **Arrays**: Usar declaración concisa o instanciación explícita.
+```[csharp]
   string[] vowels1 = { "a", "e", "i", "o", "u" }; 
 var vowels2 = new string[] { "a", "e", "i", "o", "u" };  
 var vowels3 = new string[5];  
 vowels3[0] = "a"; vowels3[1] = "e"; 
-
+```
 
 ### Gherkin
 Para información sobre las convenciones de Gherkin se usará como referencia [este enlace](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/).
 
 - **Discernible Given-When-Then Blocks**: Aplicar sangría a los bloques Given-When-Then para claridad.
+```[gherkin]
   Given a user is logged in
     And there are 3 items in the cart
 When the user clicks on the checkout button
 Then the user should see the payment page
     And the payment options should be displayed
-
+```
 - **Steps with Tables**: Si se necesita entrada de una tabla en los pasos, añadir dos puntos al final del paso.
+```[gherkin]
   Given the following users:
     | Username | Password |
     | user1    | pass123  |
     | user2    | pass456  |
     | user3    | pass789  |
-
+```
 - **Reducing Noise**: Usar valores predeterminados para campos no relevantes.
+```[gherkin]
   Given a user with an email 'example@example.com'
-
+```
 - **Parameters in Steps**: Usar comillas simples para parámetros en un paso.
+```[gherkin]
   When the user logs in with the username 'user' and password 'password'
-
+```
 - **Newlines within Scenarios**: Agregar nuevas líneas entre cada paso para legibilidad.
+```[gherkin]
   Given the user is on the home page
 
 When the user clicks on the product category
 
 Then the user should see a list of products
     And the products should be sorted by popularity
-
+```
 - **Newlines between scenarios and separator comments**: Agregar una línea de separación entre escenarios y comentarios separadores.
+```[gherkin]
   Scenario: Scenario 1
     Given the user is logged in
     When the user adds an item to the cart
@@ -593,7 +630,7 @@ Scenario: Scenario 2
     Given the user is on the checkout page
     When the user completes the payment process
     Then the order should be confirmed
-
+```
 
 ### 5.1.4. Software Deployment Configuration
 
