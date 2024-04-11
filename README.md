@@ -179,13 +179,125 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 1.3. Segmentos objetivo
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
+
+Hemos podido identificar a varios competidores que ya llevan mucho tiempo en el mercado, ya que se posicionaron en el mercado por las publicidades, ofertas y recomendaciones de sus clientes, como principales tenemos a TaskRabbit, Thumbtack y HomeAdvisor que tienen asesores dentro de su Plataforma web. Para contrarrestar esto, pensamos hacer publicidad por las redes sociales y trabajar con tiendas pequeñas.
+
+- **TaskRabbit**: TaskRabbit es una plataforma en línea que conecta a personas que necesitan ayuda con tareas domésticas o pequeños trabajos con "Taskers" que pueden realizar esas tareas.
+    
+- **Thumbtack**: Thumbtack es una plataforma que conecta a usuarios con profesionales locales para una variedad de servicios, incluidos trabajos de reparación, mantenimiento y construcción.
+  
+- **HomeAdvisor**: HomeAdvisor es un servicio en línea que ayuda a conectar a propietarios de viviendas con profesionales de la construcción, mantenimiento del hogar y mejoras del hogar.
+
+![AnalisisCompetitivo](images/analisiscompetitivo.png)
+
+**Estrategias y tácticas frente a competidores**
+
+- **TaskRabbbit**:Tenemos varias similitudes respecto a esta plataforma, en donde nosotros vamos a diferenciarnos con un trabajo más personalizado con el cliente, con precios mas competitivos que esta plataforma, otro punto a favor es nuestro punto de inicio, porque brindaremos promociones con el objetivo de posicionarnos en el mercado.
+
+- **Thumbtack**:Nuestra plataforma tendrá la opción de brindar un servicio personalizado antes del proceso de la construcción de postes. Además, se brindará servicio post acabado de esta forma los clientes tendrán un poste acorde a su hogar.
+
+- **HomeAdvisor**:Nuestra plataforma cuenta con mayor experiencia en el proceso de construcción y en el lado competitivo en decoración brindaremos un espacio virtual para que los clientes puedan tener muestras y poder visualizar como terminaría su proyecto.
+
 ## 2.2. Entrevistas
+
 ### 2.2.1. Diseño de entrevistas
+
+Entrevista Tecnicos
+
+- Información personal
+  
+  Nombres y apellidos
+  
+- Información complementaria
+  
+  ¿Cómo es que empiezan el proyecto?
+  
+  ¿Qué muestran el cliente cuando termine el proyecto?
+
+  ¿Se le presentan el cliente mediante un Word con las capturas de google earth?
+  
+- Presentación del proyecto y preguntas técnicas
+  
+  ¿Le parece bien para que el cliente lo pueda ver si te web ya pueda ver este el recorrido, cómo vas y si ha sido probado por el estado?
+  
+  Luego de realizar el diseño y verificar los permisos de cartera ¿qué más faltaría para culminar el proyecto?
+  
+  ¿En el proceso se requiere automatizar una parte del proyecto?
+  
+  ¿funcionaria un proceso de ticket en la web para facilitar y tener un control de los procesos?
+  
+  ¿La parte del proceso de macros que tiene el proceso ayudaría que el sistema lo realice?
+  
+
+Entrevista Clientes
+
+- Información personal
+  
+  Nombres y apellidos
+  
+- Información complementaria
+  
+  ¿Tu conoces alguna de estas necesidades de instalaciones de postes?
+  
+  ¿Qué se debería detallar en esta etapa del proyecto?
+  
+  ¿Que pasaría si no se hace el respectivo seguimiento a esta instalacion?
+  
+- Presentación del proyecto
+  ¿Qué le pareció la idea de poder realizar la solicitud de instalación de postes desde nuestra aplicacion web?
+  
+  ¿Qué es lo que le parecería más útil o valioso de nuestra aplicación?
+  
+  ¿Crees que nuestra aplicación ofrece transparencia en el proceso de instalacion?
+  
+  ¿Hay algún otro servicio o característica que le gustaría ver agregado a nuestra aplicacion web en un futuro?
+  
+
 ### 2.2.2. Registro de entrevistas
+
 ### 2.2.3. Análisis de entrevistas
+
+Ingeniero de Sistemas: Carlos Eduardo Espinoza
+
+El entrevistado se llama Carlos Eduardo tiene 42 años y nos comenta acerca del producto final que se le entrega al cliente que le solicitan el trabajo, para ello es importante una vista previa para poder identificar el recorrido y recojo de información de las estructuras, si es viable las tomas de fotografías, referencia de geolocalización. Además, nos comenta que en el producto final van todos los documentos dentro del kmz. Luego le comentamos como seria el proyecto de software que se estaría implementando, Carlos le interesó mucho el proyecto ya que desde la vista de diseño parte desde que se inicia el proyecto hasta los permisos que solicitan en cada parte sea la municipalidad o el mismo Ministerio de la cultura dependiendo en que parte sea el proyecto además involucra un manejo más dinámico de los tickets que se mandan de manera diaria y constante, que el software permita mostrar un avance y de manera interna se pueda controlar. Un detalle importante que menciono que la plataforma se pueda ingresar desde cualquier parte del Perú con diferencia entre usuarios personalizados. La pagina debe hacer macros de los informes de forma interna. La consulta de Carlos era donde estaría localizada la página web.
+
+Ingeniero de Sistemas: Jose Oscar Romero
+
+El entrevistado se llama Jose Oscar Romero tiene 40 años y nos comenta que la plataforma le ayudaría tener un control de a que grupo se puede asignar las tarea, networking, microondas entre los diferentes campos que se puede hacer seguimiento por clase de esta manera se puede identificar por cada área presenta mayor cantidad de tickes, otro apoyo podría ser que los tickes que son imágenes pasen a texto en un pre informe, eso podría facilitar mucho el trabajo en conjunto, la problemática es que se acumulan los tickes y se tiene que realizar de forma manual.
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+
+![UserPersona](images/usertecnico.png)
+
 ### 2.3.2. User Task Matrix
+
+**Usuario Sistemas**
+
+| Tipo | Frecuencia | Importancia |
+| - | - | - |
+| Buscar proyecto de postes | Siempre | Media |
+| Ver en qué parte del proceso se encuentra | Siempre | Alta |
+| Ver cantidad de tickes | Siempre | Alta |
+| Direccionar tareas | A veces | Alta |
+| Subir información del proyecto | Siempre | Alta |
+| Actualizar tareas | Siempre | Alta |
+| Visualizar cuadro de trabajos realizados | A veces | Media |
+| Enviar mensajes internos a responsables | Siempre | Alta |
+| Descargar estatus del proyecto | A veces | Media |
+
+**Usuario Cliente**
+
+| Tipo | Frecuencia | Importancia |
+| - | - | - |
+| Ver proyectos en la pagina | Siempre | Media |
+| Ver disponibilidad de servicio | Siempre | Media |
+| Solicitar cita | A veces | Alta |
+| Comunicarse con agente disponible | Siempre | Media |
+| Brindar información del domicilio para la cita | Siempre | Alta |
+| Descargar resultado de cita | Siempre | Alta |
+| Enviar documentos solicitados | A veces | Media |
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
