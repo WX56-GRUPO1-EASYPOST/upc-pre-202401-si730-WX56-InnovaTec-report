@@ -116,53 +116,103 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     - [4.8.1. Database Diagram](#481-database-diagram)
 
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+- [Contenido](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+    - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1 Competidores](#21-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.7.2. Class Dictionary](#472-class-dictionary)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment-1)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [Master branch](#master-branch)
+    - [Develop branch](#develop-branch)
+    - [Release branch](#release-branch)
+    - [Feature branches](#feature-branches)
+    - [Hotfix branch](#hotfix-branch)
+    - [Semantic Versioning](#semantic-versioning)
+    - [Conventional Commits](#conventional-commits)
+    - [Types](#types)
+    - [optional scope](#optional-scope)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [JavaScript](#javascript)
+    - [Vue](#vue)
+    - [C#](#c)
+    - [Gherkin](#gherkin)
+- [----------------------------------------------------------](#----------------------------------------------------------)
+- [Separator Comment](#separator-comment)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
     - [5.2.1. Sprint 1](#521-sprint-1)
-        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-        - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
-        - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
-        - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
-        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-        - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-        - [5.2.2.2. Sprint Backlog 2]()
-        - [5.2.2.3. Development Evidence for Sprint Review]()
-        - [5.2.2.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.2.5. Execution Evidence for Sprint Review]()
-        - [5.2.2.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.2.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.2.8. Team Collaboration Insights during Sprint]()
-    - [5.2.3. Sprint 3]()
-        - [5.2.3.1. Sprint Planning 3]()
-        - [5.2.3.2. Sprint Backlog 3]()
-        - [5.2.3.3. Development Evidence for Sprint Review]()
-        - [5.2.3.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.3.5. Execution Evidence for Sprint Review]()
-        - [5.2.3.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.3.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.3.8. Team Collaboration Insights during Sprint]()
-    - [5.2.4. Sprint 4]()
-        - [5.2.4.1. Sprint Planning 4]()
-        - [5.2.4.2. Sprint Backlog 4]()
-        - [5.2.4.3. Development Evidence for Sprint Review]()
-        - [5.2.4.4. Testing Suite Evidence for Sprint Review]()
-        - [5.2.4.5. Execution Evidence for Sprint Review]()
-        - [5.2.4.6. Services Documentation Evidence for Sprint Review]()
-        - [5.2.4.7. Software Deployment Evidence for Sprint Review]()
-        - [5.2.4.8. Team Collaboration Insights during Sprint]()
-- [5.3. Validation Interviews]()
-    - [5.3.1. Diseño de Entrevistas]()
-    - [5.3.2. Registro de Entrevistas]()
-    - [5.3.3. Evaluaciones según heurísticas]()
-- [5.4. Video About-the-Product]()
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Sprint Backlog 1](#5212-sprint-backlog-1)
+      - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review)
+      - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ---
 # Capítulo I: Introducción
@@ -301,11 +351,235 @@ Como convención general, todo el código realizado por los miembros del equipo 
 ### HTML
 Para información sobre las convenciones de HTML se usará como referencia [este enlace](https://www.w3schools.com/html/html5_syntax.asp).
 
-- **Use Lowercase Element Names**: Se recomienda usar minúsculas para los nombres de elementos HTML.
-```html
-<body> 
+- **Use Lowercase Element Names**: Se recomienda usar minúsculas para los nombres de los elementos HTML.
+   <body> 
+      <p>Esto es un párrafo</p> 
+  <body> 
+- **Close All HTML Elements**: Se recomienda cerrar todos los elementos HTML.
+  <body> 
     <p>Esto es un párrafo</p> 
-<body>
+    <p>Esto es otro párrafo</p> 
+<body> 
+
+- **Use Lowercase Attribute Names**: Se recomienda usar minúsculas para los nombres de los atributos HTML.
+  <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>  
+
+- **Always Specify alt, width, and height for Images**: Es recomendado especificar alt, width y height para imágenes.
+  <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">  
+
+
+### CSS
+Para información sobre las convenciones de CSS se usará como referencia [este enlace](https://google.github.io/styleguide/htmlcssguide.html#CSS).
+
+- **ID and Class Naming**: Usar nombres de clases y ID significativos.
+  #gallery {} 
+#login {} 
+.video {} 
+
+- **ID and Class Name Style**: Usar nombres cortos pero descriptivos.
+  #nav {} 
+.author {} 
+
+- **Shorthand Properties**: Usar propiedades abreviadas CSS cuando sea posible.
+  border-top: 0; 
+font: 100%/1.6 palatino, georgia, serif; 
+padding: 0 1em 2em; 
+
+- **0 and Units**: Evitar unidades después de usar 0.
+  margin: 0; 
+padding: 0; 
+
+- **ID and Class Name Delimiters**: Separar palabras en ID y clases con guiones.
+  #video-id {} 
+.ads-sample {} 
+
+- **Declaration Order**: Colocar declaraciones en orden alfabético.
+  background: fuchsia; 
+border: 1px solid; 
+border-radius: 4px; 
+color: black; 
+text-align: center; 
+text-indent: 2em; 
+
+
+- **Selector and Declaration Separation**: Separar selectores y declaraciones en nuevas líneas.
+ h1, h2, h3 { 
+    font-weight: normal; 
+    line-height: 1.2; 
+} 
+
+
+
+### JavaScript
+Para información sobre las convenciones de JavaScript se usará como referencia [este enlace](https://developer.mozilla.org/en-US/docs/MDN/Guidelines/Code_guidelines/JavaScript#creating_arrays).
+
+- **Use expanded syntax**: Cada línea de JavaScript en una nueva línea.
+  function myFunc() { 
+    console.log('Hello!');  
+}; 
+
+- **Variable naming**: Usar lowerCamelCase para el nombre de variables.
+  let playerScore = 0; 
+let speed = distance / time; 
+
+- **Declaring variables**: Usar let y const, evitar var.
+  const myName = 'Chris'; 
+console.log(myName); 
+let myAge = '40'; 
+myAge++; 
+console.log('Happy birthday!');  
+
+- **Use strict equality**: Siempre usar igualdad estricta.
+  name === 'Chris'; 
+age !== 25; 
+
+- **Function naming**: Usar lowerCamelCase para el nombre de funciones.
+  function sayHello() { 
+    alert('Hello!'); 
+}; 
+
+- **Creating objects**: Usar literales para la creación de objetos.
+  let myObject = {}; 
+
+- **Object classes**: Usar la sintaxis de clase de ES para objetos.
+  class Person { 
+  constructor(name, age, gender) {  
+    this.name = name; 
+    this.age = age; 
+    this.gender = gender; 
+  } 
+  greeting() { 
+    console.log(`Hi! I'm ${this.name}`); 
+  }; 
+} 
+
+- **Creating arrays**: Usar literales para la creación de arrays.
+  let myArray = [ ]; 
+
+
+### Vue
+Para información sobre las convenciones de Vue se usará como referencia [este enlace](https://vuejs.org/v2/style-guide/).
+
+- **Multi-word component names**: Nombres de componentes de varias palabras.
+  export default { 
+  name: 'TodoItem', 
+  // ... 
+} 
+
+- **Component data**: La propiedad data de un componente debe ser una función que devuelva un objeto.
+  export default { 
+  data () { 
+    return { 
+      foo: 'bar' 
+    } 
+  } 
+} 
+
+- **Prop definitions**: La definición de props debe ser detallada.
+  props: { 
+  status: String 
+} 
+
+- **Keyed v-for**: Siempre usar key con v-for.
+  <ul> 
+  <li 
+    v-for="todo in todos" 
+    :key="todo.id" 
+  > 
+    {{ todo.text }} 
+  </li> 
+</ul> 
+
+- **Prop name casing**: Usar camelCase para el nombre de los props.
+  props: { 
+  greetingText: String 
+} 
+
+
+### C#
+Para información sobre las convenciones de C# se usará como referencia.
+
+- **Pascal case**: Usar PascalCasing para class, record o struct.
+  public class DataService 
+{ 
+} 
+public record PhysicalAddress( 
+    string Street, 
+    string City, 
+    string  StateOrProvince,  
+    string ZipCode); 
+public struct ValueCoordinate 
+{ 
+} 
+
+- **Camel case**: Usar camelCasing para atributos o campos privados.
+  public class DataService 
+{ 
+    private IWorkerQueue _workerQueue;  
+} 
+public T SomeMethod<T>(int someNumber, bool isValid)  
+{ 
+} 
+
+- **String interpolation**: Usar string interpolation para concatenar cadenas.
+  string displayName = $"{nameList[n].LastName}, {nameList[n].FirstName}";  
+
+- **Implicitly typed local variables**: Usar tipado implícito cuando sea posible.
+  var var1 = "This is clearly a string.";
+var var2 = 27;
+
+
+- **Arrays**: Usar declaración concisa o instanciación explícita.
+  string[] vowels1 = { "a", "e", "i", "o", "u" }; 
+var vowels2 = new string[] { "a", "e", "i", "o", "u" };  
+var vowels3 = new string[5];  
+vowels3[0] = "a"; vowels3[1] = "e"; 
+
+
+### Gherkin
+Para información sobre las convenciones de Gherkin se usará como referencia [este enlace](https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/).
+
+- **Discernible Given-When-Then Blocks**: Aplicar sangría a los bloques Given-When-Then para claridad.
+  Given a user is logged in
+    And there are 3 items in the cart
+When the user clicks on the checkout button
+Then the user should see the payment page
+    And the payment options should be displayed
+
+- **Steps with Tables**: Si se necesita entrada de una tabla en los pasos, añadir dos puntos al final del paso.
+  Given the following users:
+    | Username | Password |
+    | user1    | pass123  |
+    | user2    | pass456  |
+    | user3    | pass789  |
+
+- **Reducing Noise**: Usar valores predeterminados para campos no relevantes.
+  Given a user with an email 'example@example.com'
+
+- **Parameters in Steps**: Usar comillas simples para parámetros en un paso.
+  When the user logs in with the username 'user' and password 'password'
+
+- **Newlines within Scenarios**: Agregar nuevas líneas entre cada paso para legibilidad.
+  Given the user is on the home page
+
+When the user clicks on the product category
+
+Then the user should see a list of products
+    And the products should be sorted by popularity
+
+- **Newlines between scenarios and separator comments**: Agregar una línea de separación entre escenarios y comentarios separadores.
+  Scenario: Scenario 1
+    Given the user is logged in
+    When the user adds an item to the cart
+    Then the cart count should increase by 1
+
+# ----------------------------------------------------------
+
+# Separator Comment
+Scenario: Scenario 2
+    Given the user is on the checkout page
+    When the user completes the payment process
+    Then the order should be confirmed
 
 
 ### 5.1.4. Software Deployment Configuration
