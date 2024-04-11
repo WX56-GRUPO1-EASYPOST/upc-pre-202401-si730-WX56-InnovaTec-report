@@ -298,6 +298,15 @@ Los commits siguen una estructura específica, utilizando la siguiente plantilla
 
 Como convención general, todo el código realizado por los miembros del equipo debe redactarse en completo inglés.
 
+### HTML
+Para información sobre las convenciones de HTML se usará como referencia [este enlace](https://www.w3schools.com/html/html5_syntax.asp).
+
+- **Use Lowercase Element Names**: Se recomienda usar minúsculas para los nombres de elementos HTML.
+```html
+<body> 
+    <p>Esto es un párrafo</p> 
+<body>
+
 
 ### 5.1.4. Software Deployment Configuration
 
