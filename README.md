@@ -231,7 +231,7 @@ Nuestro sistema de navegación está diseñado para ser intuitivo y eficiente, p
 
 ### 4.3.2. Landing Page Mock-upX
 
-La página de inicio de PostNetQuote está diseñada para ofrecer una experiencia informativa y funcional a sus usuarios, reflejando el compromiso de la empresa con la vanguardia en proyectos de infraestructura de fibra óptica. La estructura de la página se detalla a continuación:
+La página de inicio de EasyPost está diseñada para ofrecer una experiencia informativa y funcional a sus usuarios, reflejando el compromiso de la empresa con la vanguardia en proyectos de infraestructura de fibra óptica. La estructura de la página se detalla a continuación:
 
 #### Encabezado y Navegación
 
@@ -241,7 +241,7 @@ La página de inicio de PostNetQuote está diseñada para ofrecer una experienci
 #### Sección de Descripción
 
 - **Imagen de Fondo:** Presenta una fotografía relacionada con la industria, estableciendo el contexto visual.
-- **Texto Descriptivo:** Expone el papel de PostNetQuote en la industria de la fibra óptica, ofreciendo actualizaciones detalladas sobre los proyectos y fomentando la transparencia y la comunicación con los interesados.
+- **Texto Descriptivo:** Expone el papel de EasyPost en la industria de la fibra óptica, ofreciendo actualizaciones detalladas sobre los proyectos y fomentando la transparencia y la comunicación con los interesados.
 
 #### Nuestros Servicios
 
@@ -279,14 +279,14 @@ La página está diseñada siguiendo los principios de diseño web moderno, incl
 ## 4.6. Domain-Driven Software Architecture
 
 ### 4.6.1. Software Architecture Context Diagram
-El diagrama de contexto proporciona una visión de alto nivel del sistema "PostNetQuote.com", resaltando cómo interactúa con los usuarios finales y otros sistemas externos. En este caso, los actores identificados son el "Cliente" y el "Administrador", quienes interactúan directamente con el sistema, representando a las personas o entidades que monitorean el progreso de proyectos y gestionan el sistema, respectivamente.
+El diagrama de contexto proporciona una visión de alto nivel del sistema "EasyPost.com", resaltando cómo interactúa con los usuarios finales y otros sistemas externos. En este caso, los actores identificados son el "Cliente" y el "Administrador", quienes interactúan directamente con el sistema, representando a las personas o entidades que monitorean el progreso de proyectos y gestionan el sistema, respectivamente.
 
-Este diagrama es crucial para entender el alcance del sistema "PostNetQuote.com", que se enfoca en la gestión de proyectos de infraestructura y tendido de fibra óptica. La claridad en las interacciones externas es fundamental para definir los límites del sistema y las expectativas de los usuarios. Además, ayuda a identificar las necesidades de integración con sistemas externos, como bases de datos o servicios de autenticación, que podrían ser relevantes pero no se especifican directamente en este nivel.
+Este diagrama es crucial para entender el alcance del sistema "EasyPost.com", que se enfoca en la gestión de proyectos de infraestructura y tendido de fibra óptica. La claridad en las interacciones externas es fundamental para definir los límites del sistema y las expectativas de los usuarios. Además, ayuda a identificar las necesidades de integración con sistemas externos, como bases de datos o servicios de autenticación, que podrían ser relevantes pero no se especifican directamente en este nivel.
 
 ![wireframe](images/diagrama-de-contexto.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
-El diagrama de contenedores descompone el sistema "PostNetQuote.com" en sus componentes de alto nivel, mostrando la tecnología subyacente y cómo se organizan para proporcionar la funcionalidad del sistema. Los contenedores identificados incluyen la "Web App", desarrollada con Angular y Java Spring Boot, y el "API Gateway", que utiliza Spring Cloud Gateway.
+El diagrama de contenedores descompone el sistema "EasyPost.com" en sus componentes de alto nivel, mostrando la tecnología subyacente y cómo se organizan para proporcionar la funcionalidad del sistema. Los contenedores identificados incluyen la "Web App", desarrollada con Angular y Java Spring Boot, y el "API Gateway", que utiliza Spring Cloud Gateway.
 
 Este nivel de detalle es esencial para comprender la arquitectura técnica del sistema y cómo los diferentes contenedores sirven a los distintos tipos de usuarios. La "Web App" sirve como punto de acceso principal para "Clientes" y "Administradores", permitiéndoles interactuar con el sistema a través de un navegador. El "API Gateway" actúa como un intermediario entre la aplicación web y los servicios de backend, asegurando una comunicación eficiente y segura.
 
@@ -324,7 +324,7 @@ Esta descomposición en bounded contexts refleja un enfoque de diseño de softwa
 ## 4.7. Software Object-Oriented Design
 
 ### 4.7.1. Class Diagrams.
-El diseño del diagrama de clases para el sistema de gestión de proyectos, como el propuesto para "PostNetQuote.com", juega un papel crucial en el desarrollo y mantenimiento del software. A continuación, se presenta una justificación detallada de las clases principales, sus relaciones, y cómo estas facilitan la implementación y escalabilidad del sistema.
+El diseño del diagrama de clases para el sistema de gestión de proyectos, como el propuesto para "EasyPost.com", juega un papel crucial en el desarrollo y mantenimiento del software. A continuación, se presenta una justificación detallada de las clases principales, sus relaciones, y cómo estas facilitan la implementación y escalabilidad del sistema.
 
 ### Clases Principales
 
@@ -373,7 +373,7 @@ La definición de estas clases y métodos no solo facilita la implementación in
 ## 4.8. Database Design.
 
 ### 4.8.1. Database Diagram.
-La estructura de la base de datos diseñada para el sistema PostNetQuote.com es esencial para cumplir con las necesidades operativas y funcionales del proyecto. A continuación, se detalla la justificación para las principales entidades y relaciones definidas en la base de datos.
+La estructura de la base de datos diseñada para el sistema EasyPost.com es esencial para cumplir con las necesidades operativas y funcionales del proyecto. A continuación, se detalla la justificación para las principales entidades y relaciones definidas en la base de datos.
 
 ### Entidades Principales
 
