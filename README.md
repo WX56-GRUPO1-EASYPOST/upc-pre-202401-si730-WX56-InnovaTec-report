@@ -22,7 +22,7 @@ Integrantes:
 - 
 - 
 - 
-- 
+- Quilla Luyo, Jorge Gerardo - U20211B197
 - Ybañez Esquerre, Miguel Angel - U20201B298
 - 
 
@@ -168,15 +168,117 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1 Descripción de la Startup
+Somos EasyPosts, una startup conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas. Nos encargamos de solucionar problemáticas con ayuda de herramientas tecnológicas con el fin de automatizar y facilitar procesos.
+
+En esta oportunidad presentamos una aplicación web la cual ofrece el servicio de instalación de postes en lugares solicitados por nuestros clientes. Nuestra aplicación ofrece transparencia a lo largo de este proceso para garantizar confianza, además de ofrecer ventajas dentro de nuestra aplicación para que los usuarios registrados se sientan conformes y cuenten con nosotros en otra oportunidad.
+
+**Misión:** Facilitar y optimizar este proceso con ayuda de nuestra plataforma. Nuestra startup se compromete a brindar transparencia, eficiencia y confianza a nuestros clientes. 
+
+**Visión:** Ser la empresa con una solución innovadora para la problemática de este sector, ofreciendo simplificación y mejora a este proceso
+
 ### 1.1.2 Perfiles de integrantes del equipo
+**Nombre: Jorge Gerardo Quilla Luyo**
+
+Código: U20211B197
+
+Carrera: Ingeniería de Software
+
+Acerca de mí:
+
+Me considero una persona puntual y comprometida con los trabajos en grupo, siempre intento ayudar a lo largo del trabajo en desarrollo. También me esfuerzo en comunicar los resultados e investigar temas nuevos por cuenta propia.
+
+![Gerardo Quilla](images/Gerardo.png)
+
 ## 1.2 Solution Profile
+Para comprender la solución debemos detallar aspectos que se abordarán a lo largo del proyecto y qué metas tendremos.
+
 ### 1.2.1 Antecedentes y problemática
+- **What(Qué):**
+A lo largo del proceso, el cliente recibe informes con todos los detalles, o existe una comunicación con todo lo involucrado del proyecto. Sin embargo, ambas partes podrían presentar dificultades para comunicar resultados o avances del proyecto en curso.
+
+- **Why(Por qué)**
+El proyecto, en sus inicios, debe detallarse para evitar confusiones o errores. Muchas veces puede perderse o desviarse del propósito de esta instalación en la ubicación solicitada. En consecuencia, demoras o postergaciones en la instalación que prometía ofrecer servicios esenciales en los alrededores de la zona.
+
+- **Who(Quién)**
+La falta de seguimiento a este tipo de proyectos puede resultar en problemas para la empresa encargada de la instalación, la población de los alrededores y aquella empresa que está manejando todas las etapas del proyecto.
+
+- **When(Cuándo)**
+El proyecto puede verse afectado en distintos momentos, a inicios, durante y al final de este mismo. Además se debe considerar que existen fechas definidas en los contratos, por lo que otra etapa del gran proyecto que se está llevando a cabo puede verse afectada. 
+
+- **Where(Dónde)**
+Esta problemática afecta la ubicación donde se ha solicitado la instalación del poste. La falta de seguimiento en este proceso afectará las siguientes etapas. 
+
+- **How(Cómo)**
+El procedimiento que se lleve a cabo para la instalación debe cumplir con los detalles de la solicitud realizada por el cliente. Muchas veces hay problemas cuando no se cumplen los requisitos establecidos de esta solicitud realizada, terminando en problemas en las etapas o en los hitos de este proyecto.
+
+- **How much(Cuánto)**
+Es importante cotizar correctamente la cantidad de postes que se necesitarán en la ubicación deseada, así para evitar costes que se salgan del presupuesto o compras de materiales que sean  innecesarias.
+
 ### 1.2.2 Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
+**Segmento Empresas de Instalación de postes**
+
+Hemos notado que las empresas que se dedican a la instalación de postes actualmente no están del todo digitalizadas, muchas aún operan de forma manual al momento de realizar un proyecto. Muchas terminan con problemas debido a la falta de automatización de operaciones. Además que tienen limitaciones en cuanto a la comunicación con los contratistas correspondientes, los cuales en gran medida solicitan avances, reuniones o recopilar información del proyecto en curso.
+
+¿Cómo podemos facilitar este tipo de procesos a las empresas que se dedican a la instalación de postes para que sus clientes queden satisfechos con su trabajo?
+
+**Segmento Empresas Contratistas** 
+
+Hemos notado que las empresas que solicitan instalación de postes, necesitan estar informados sobre todos los requerimientos que llevará este proyecto, ya que en su mayoría la instalación de estos postes suele ser el primer paso de otro proyecto que suelen proporcionar servicios esenciales a comunidades o la población alrededor de la ubicación solicitada. Por lo tanto debe existir una comunicación eficiente y transparente por parte de la empresa a la que se está contratando.
+
+¿Cómo podríamos facilitar el seguimiento a las empresas contratistas para evitar que el proyecto que se lleve a cabo no se vea afectado por la falta de comunicación con el proyecto de instalación de postes?
+
 #### 1.2.2.2. Lean UX Assumptions
+**Asumimos que**
+
+Empresa: Necesita contar con las herramientas digitales necesarias para detallar el proceso de instalación, y comunicarse de manera rápida y eficiente con la empresa que los contrató.
+
+Cliente: Necesita realizar un seguimiento detallado de inicio a fin del proyecto de instalación
+
+**Estas necesidades se pueden resolver con**
+
+Empresa: una aplicación que permita ingresar todos los detalles del proyecto de instalación de postes
+
+Cliente:  una sección en nuestra aplicación que permita ver con detalle o realizar un seguimiento a la empresa que se ha contratado.
+
+**Mis clientes iniciales serán** empresas que instalan postes para distintos servicios, y contratistas que lleven a cabo un proyecto el cual incluye la instalación de postes en lugares específicos.
+
+**El valor #1 que un cliente quiere de nuestro servicio** es que la tecnología implementada en la aplicación permite transparencia con la empresa que se ha contratado
+
+**Obtendremos la mayoría de nuestros clientes a través** publicaciones en redes sociales la cual especifique los beneficios de usar nuestra aplicación
+
+**Obtendremos ingresos mediante** membresías para utilizar la aplicación, la cual ofrecerá ventajas para cada segmento objetivo
+
+**Mis competidores serán** otras empresas, públicas o privadas, que estén en el mismo ámbito
+
+**Destacaremos** frente a nuestros competidores al implementar una solución moderna a esta problemática
+
+**El principal riesgo** es una interfaz difícil de operar o poco detalle en la visualización para realizar los respectivos seguimientos al proyecto de instalación de postes.
+
+**Resolveremos esto a través** de buenas prácticas para desarrollar la aplicación web, ofrecer una interfaz sencilla de manipular y resultados veraces y detallados del proyecto en curso.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
+**Hypothesis Statement 1**
+
+Creemos que nuestra aplicación permitirá transparencia por cada procedimiento durante la instalación.
+Sabremos que tendremos éxito cuando más empresas se sumen a utilizar esta herramienta tecnológica.
+
+**Hypothesis Statement 2**
+
+Creemos que facilitar la comunicación entre cliente y empresa va a optimizar las etapas de seguimiento.
+Sabremos que tuvimos éxito, si al terminar el proyecto de instalación de postes no se tuvo reportes de postergación o demoras debido a falta de transparencia.
+
 #### 1.2.2.4. Lean UX Canvas
+
+![Lean UX Canvas](images/Lean%20UX%20Canvas.png)
+
 ## 1.3. Segmentos objetivo
+Debemos reconocer quienes son los principales segmentos de esta solución para establecer metas y límites en el sector. Además, garantizar la efectividad de la solución con nuestra aplicación.
+
+**Cliente:** Muchos proyectos que buscan ayudar ciertas zonas a nivel nacional, ofreciendo servicios esenciales, necesitan primero contar con postes para continuar. Por lo que el cliente se le puede considerar como empresas contratistas las cuales pueden ser públicas o privadas. 
+
+**Empresa dedicada a instalación de postes:** Estas empresas están acostumbradas a realizar sus procesos internos y operaciones comerciales de una forma que se ha establecido desde hace mucho tiempo, pero con la innovación tecnológica pueden facilitar y automatizar varias tareas durante las etapas de la instalación de postes.
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1 Competidores
 ## 2.2. Entrevistas
@@ -250,4 +352,3 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Bibliografía
 
 ---
-# Anexos
