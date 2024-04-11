@@ -352,29 +352,42 @@ Como convención general, todo el código realizado por los miembros del equipo 
 Para información sobre las convenciones de HTML se usará como referencia [este enlace](https://www.w3schools.com/html/html5_syntax.asp).
 
 - **Use Lowercase Element Names**: Se recomienda usar minúsculas para los nombres de los elementos HTML.
+
+  ```[html]
    <body> 
       <p>Esto es un párrafo</p> 
   <body> 
+  ```
+
 - **Close All HTML Elements**: Se recomienda cerrar todos los elementos HTML.
+  ```[html]
   <body> 
     <p>Esto es un párrafo</p> 
     <p>Esto es otro párrafo</p> 
 <body> 
+```
 
 - **Use Lowercase Attribute Names**: Se recomienda usar minúsculas para los nombres de los atributos HTML.
+  
+  ```[html]
   <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>  
+```
 
 - **Always Specify alt, width, and height for Images**: Es recomendado especificar alt, width y height para imágenes.
-  <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">  
 
+  ```[html]
+  <img src="html5.gif" alt="HTML5" style="width:128px;height:128px">  
+```
 
 ### CSS
 Para información sobre las convenciones de CSS se usará como referencia [este enlace](https://google.github.io/styleguide/htmlcssguide.html#CSS).
 
 - **ID and Class Naming**: Usar nombres de clases y ID significativos.
+  ```[css]
   #gallery {} 
 #login {} 
 .video {} 
+```
 
 - **ID and Class Name Style**: Usar nombres cortos pero descriptivos.
   #nav {} 
