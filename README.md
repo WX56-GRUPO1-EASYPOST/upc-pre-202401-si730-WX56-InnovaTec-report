@@ -31,7 +31,7 @@ Junio del 2024
 ---
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                        | Descripción de la modificación                                                                                                     |
+| Versión | Fecha      | Autor                        | Descripción de la modificación                                                                                     |
 |---------|------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | 1.00    | 12/04/2024 | Ybañez Esquerre, Miguel Angel | Se creó la portada y el índice del informe, además se finalizaron todos los aspectos relacionados con el perfil de la solución, el perfil de la startup y la descripción de los antecedentes y problemáticas, así como los segmentos objetivo. Se completaron los capítulos de las pautas generales de estilo, los wireframes, mockups y sus correspondientes flujos de trabajo. También se desarrollaron los diagramas C4. |
 
