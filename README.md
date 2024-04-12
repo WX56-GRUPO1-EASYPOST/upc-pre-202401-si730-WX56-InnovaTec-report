@@ -350,7 +350,9 @@ Debemos reconocer quienes son los principales segmentos de esta solución para e
 
 **Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/EX3SFraCZDhFsBv6fEXWDqcB3VfWzLFtRE4buQAayrgQ5w?e=sc1kxP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-**Resumen de la entrevista:** El entrevistado, Mateo Muñoz, es un estudiante de la carrera de Ingeniería de Sistemas. Mateo es consciente del proceso que conlleva los proyectos que incluyen la instalación de postes, tales como la identificación de la necesidad en los alrededores, etapas de planificación de desarrollo y controles de calidad. Esta última etapa la considera importante porque hacer un mal seguimiento podría afectar propiedades aledañas, habrían costos adicionales y el plazo de entrega se vería afectado. Opina que EasyPost ayudará a las empresas que instalan postes, ya que gracias a las herramientas de seguimiento de proyectos podrán ofrecer transparencia con su cliente respectivo.  
+**Resumen de la entrevista:** El entrevistado, Mateo Muñoz, es un estudiante de la carrera de Ingeniería de Sistemas. Mateo es consciente del proceso que conlleva los proyectos que incluyen la instalación de postes, tales como la identificación de la necesidad en los alrededores, etapas de planificación de desarrollo y controles de calidad. Esta última etapa la considera importante porque hacer un mal seguimiento podría afectar propiedades aledañas, habrían costos adicionales y el plazo de entrega se vería afectado. Opina que EasyPost ayudará a las empresas que instalan postes, ya que gracias a las herramientas de seguimiento de proyectos podrán ofrecer transparencia con su cliente respectivo.
+
+### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
@@ -363,9 +365,6 @@ Debemos reconocer quienes son los principales segmentos de esta solución para e
 ## 3.2. User Stories
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
-
-# Capítulo IV: Product Design
-
 # 4.1. Style Guidelines
 
 ## 4.1.1. General Style Guidelines
@@ -578,6 +577,7 @@ El diseño soporta la automatización de procesos y la toma de decisiones inform
 El esquema de la base de datos permite la incorporación de nuevas entidades y relaciones, apoyando el crecimiento del sistema y la diversificación de las necesidades de los usuarios.
 
 ![wireframe](images/base-de-datos.png)
+
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 
@@ -1032,7 +1032,3 @@ Las actividades para el presente Sprint se repartieron en base a las secciones d
 
 ---
 # Bibliografía
-
-- The Fiber Optic Association. (2023). Instalación. Recuperado de: https://www.thefoa.org/ESP/Instalacion.htm
-
----
