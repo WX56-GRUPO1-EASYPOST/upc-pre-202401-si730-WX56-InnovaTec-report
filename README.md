@@ -299,7 +299,6 @@ Soy Carlos Avellaneda, estudiante de la carrera de Ingenieria de Software en la 
 
 <img src="images/charlie.png" alt="Gerardo Quilla" width="250" height="250">
 
-![Miguel Angel Ybañez](https://media.licdn.com/dms/image/D4E03AQGhEmnn3PY4Pw/profile-displayphoto-shrink_200_200/0/1698899674739?e=1717027200&v=beta&t=Nh3jCG4JwuTnk5JP7vxmFsFbhj6o2kJrG8nHcrO_G7g)
 
 Nombre completo: Miguel Angel Ybañez Esquerre
 
@@ -308,6 +307,8 @@ Código de estudiante: U20201B298
 Carrera: Ingeniería de Software
 
 Acerca de mí: Soy una persona amigable, me gusta hacer creación de contenido, y también me agrada el trabajo en equipo. Tengo experiencia en Frontend y Backend, he realizado proyectos para empresas pequeñas. Me especializo en la programación y tengo conocimientos en la creación de páginas web y videojuegos. Además de usar herramientas para edición de imágenes o videos.
+
+![Miguel Angel Ybañez](https://media.licdn.com/dms/image/D4E03AQGhEmnn3PY4Pw/profile-displayphoto-shrink_200_200/0/1698899674739?e=1717027200&v=beta&t=Nh3jCG4JwuTnk5JP7vxmFsFbhj6o2kJrG8nHcrO_G7g)
 
 ## 1.2 Solution Profile
 Para comprender la solución debemos detallar aspectos que se abordarán a lo largo del proyecto y qué metas tendremos.
