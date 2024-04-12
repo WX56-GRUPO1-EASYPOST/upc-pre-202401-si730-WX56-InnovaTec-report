@@ -221,7 +221,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
 ---
 # Capítulo I: Introducción
@@ -821,8 +820,6 @@ Las actividades para el presente Sprint se repartieron en base a las secciones d
 - Establecimiento de pautas generales de estilo que sirvieron como base para diseñar los wireframes y mock-ups tanto de la aplicación web como de la página de inicio, reflejando los principios que guiarán el desarrollo futuro.
 
 - Desarrollo de la página de inicio en base al sprint actual, con cada miembro del equipo trabajando en diferentes secciones para crear una experiencia integral que facilite a los usuarios acceder a la aplicación web.
-
-- Avance en el desarrollo del frontend conforme al sprint actual, centrándose en las características prioritarias del backlog del producto, utilizando una API ficticia para avanzar en el frontend sin depender del backend.
 
 ### Video About-the-Team
 
