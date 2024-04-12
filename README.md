@@ -47,6 +47,9 @@ Para la elaboración del informe, se han realizado las siguientes actividades:
 
 - Se han llevado a cabo reuniones periódicas para coordinar el progreso de los puntos del informe. Además, se han utilizado estas reuniones para comunicar los avances realizados durante el Sprint 1, que se centró en el desarrollo de la Landing Page del proyecto.
 
+<img src="./images/Insight.PNG" alt="Insight"/>
+<img src="./images/network.PNG" alt="Insight"/>
+
 ---
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 3** <br> Criterio: *Capacidad de comunicarse efectivamente con un rango de audiencias.*
@@ -796,6 +799,11 @@ El objetivo principal del sprint 1 consiste en llevar a cabo la implementación 
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
+| Repository             | Branch  | Commit Id | Commit Message              | Commit Message Body | Commited on (Date) |
+|------------------------|---------|-----------|-----------------------------|---------------------|---------------------|
+| EasyPost-LandingPage   | develop | f2b3799   | feature: Creación de Landing | -                   | 11/04/2024          |
+
+
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
 Esta sección no fue posible integrar en la presente entrega debido a que el código realizado fue para el desarrollo de la landing page.
@@ -808,9 +816,14 @@ No se utilizó ningún servicio adicional, pues este primer Sprint solo consta d
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Como ya se ha mencionado, hemos empleado GitHub Pages para desplegar automáticamente la página de inicio con todas las actualizaciones realizadas por el equipo. Esta herramienta se integra directamente con nuestra organización en GitHub y utiliza la rama principal del repositorio para el despliegue. Puedes acceder al sitio web utilizando el siguiente enlace:
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Las actividades para el presente Sprint se repartieron en base a las secciones de la landing page que se plantearon como equipo previamente, para ello, se realizaron primero los styles en un archivo aparte .css y luego entre todo el equipo se desarrolló el index.html. De esta manera, el desarrollo de la landing page fue organizada y eficiente. A continuación, se mostrarán las evidencias de los commits:
+
+<img src="./images/Insight.PNG" alt="Insight"/>
+<img src="./images/network.PNG" alt="Insight"/>
 
 # Conclusiones
 ### Conclusiones y recomendaciones
