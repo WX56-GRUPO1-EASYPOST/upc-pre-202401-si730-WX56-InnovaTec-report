@@ -196,11 +196,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 En el capitulo, nos enfocaremos en nuestras metas para enriquecer la experiencia tanto de las compañías que ofrecen servicios como de los usuarios finales en nuestra plataforma de instalación de postes de fibra óptica.  Desde la búsqueda inicial hasta la retroalimentación final, analizaremos cómo deseamos simplificar y mejorar cada fase del proceso para ambas partes involucradas. Con una atención especial en el usuario, nuestro objetivo es asegurar una experiencia más fluida y gratificante para todos los usuarios de nuestra plataforma.
 
 <div align="center">
-    <img src="Segmento1" width="90%" /> 
+<img src="images/img-scenario-mapping1.png">
 </div>
 <br>
 <div align="center">
-    <img src="Segmento2" width="90%" /> 
+<img src="images/img-scenario-mapping2.png">
 </div>
 <br>
 Enlace al To-Be Scenario Mapping: https://miro.com/app/board/uXjVKWk-mNo=/?share_link_id=26893800110
@@ -777,6 +777,11 @@ Entonces encuentra testimonios auténticos de clientes satisfechos o ejemplos de
 ## 3.3. Impact Mapping
 
 El impact mapping es una herramienta estratégica que vincula los objetivos comerciales con las características de nuestra plataforma. Nos permite visualizar cómo cada elemento del desarrollo contribuye a alcanzar los resultados que buscamos. Al dividir los objetivos en impactos y actividades, tomamos decisiones más enfocadas en generar valor.
+
+<img src="images/img-impact-map1.png">
+
+<img src="images/img-impact-map2.png">
+
 ## 3.4. Product Backlog
 
 El product backlog es un registro en constante evolución que detalla todas las funcionalidades, mejoras y correcciones proyectadas para integrar en nuestra plataforma de instalación de postes de fibra óptica. En esta área, organizamos estas actividades en base a su relevancia tanto para los usuarios como para el negocio, permitiéndonos así planificar y administrar de manera eficiente el desarrollo de la plataforma.
