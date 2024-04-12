@@ -19,8 +19,8 @@ Startup: InnovaTec
 Producto: EasyPost
 
 Integrantes:
-- 
--
+
+- Chavez Guerrero, Luis Sebastian - U202216444
 - Ticona luque, Rony Piero - U201420422
 - Quilla Luyo, Jorge Gerardo - U20211B197
 - Ybañez Esquerre, Miguel Angel - U20201B298
