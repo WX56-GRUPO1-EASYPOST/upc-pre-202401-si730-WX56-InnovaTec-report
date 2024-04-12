@@ -520,7 +520,7 @@ Finalmente, se mencionó la intención de estructurar bien el sitio, definiendo 
 
 #### Entrevista 3
 
-![Entrevista](images/entrevista3.png)
+![Entrevista](images/Entrevista3.png)
 
 **Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EftWhYvfPk5KiNNk_UqTUxsBWm_UQ6K7C7u-n8CFruqFeg?e=V2HFgq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
