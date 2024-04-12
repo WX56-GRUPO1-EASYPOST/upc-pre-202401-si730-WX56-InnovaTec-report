@@ -31,10 +31,21 @@ Junio del 2024
 ---
 # Registro de Versiones del Informe
 
+| Versión | Fecha      | Autor                        | Descripción de la modificación                                                                                                     |
+|---------|------------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| 1.00    | 12/04/2024 | Ybañez Esquerre, Miguel Angel | Se creó la portada y el índice del informe, además se finalizaron todos los aspectos relacionados con el perfil de la solución, el perfil de la startup y la descripción de los antecedentes y problemáticas, así como los segmentos objetivo. Se completaron los capítulos de las pautas generales de estilo, los wireframes, mockups y sus correspondientes flujos de trabajo. También se desarrollaron los diagramas C4. |
 
 ---
 # Project Report Collaboration Insights
+TB1: Se han llevado a cabo las tareas asignadas para la entrega TB1 en el repositorio de Github de la organización del equipo, accesible a través del siguiente enlace: Informe-TB1-Web.
 
+Para la elaboración del informe, se han realizado las siguientes actividades:
+
+- Cada integrante ha redactado y creado gráficos en formato Markdown según los puntos asignados, posteriormente se han realizado commits para asegurar que el avance quede registrado en el repositorio.
+
+- Se han elaborado los artefactos necesarios utilizando las herramientas indicadas, y luego se han obtenido los enlaces de imagen correspondientes mediante la funcionalidad de "Issues" dentro del repositorio del informe.
+
+- Se han llevado a cabo reuniones periódicas para coordinar el progreso de los puntos del informe. Además, se han utilizado estas reuniones para comunicar los avances realizados durante el Sprint 1, que se centró en el desarrollo de la Landing Page del proyecto.
 
 ---
 # Student Outcome
@@ -655,25 +666,55 @@ Una vez completado el proceso, podemos confirmar que el despliegue se realizó c
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
-
-#### 5.2.1.1. Sprint Planning 1
 El objetivo principal del sprint 1 consiste en llevar a cabo la implementación y el despliegue inicial de nuestra landing page. Esta página tiene como finalidad atraer la atención de posibles clientes al presentarles las características y ventajas principales de nuestro servicio.
+#### 5.2.1.1. Sprint Planning 1
+| Property                          | Value                               |
+|-----------------------------------|-------------------------------------|
+| Sprint #                          | 1                                   |
+| Sprint Planning Background        | -                                   |
+| Date                              | 2024-04-10                          |
+| Time                              | 18:00 PM                            |
+| Location                          | Virtual via Google Meet             |
+| Prepared By                       | Ybañez Esquerre, Miguel Angel     |
+| Attendees                         | Ybañez Esquerre, Miguel Angel /  /  /  /  |
+| Sprint 1 - Review Summary         | No aplica (Es el primer Sprint)     |
+| Sprint 1 - Retrospective Summary | No aplica (Es el primer Sprint)     |
+| Sprint Goal & User Stories        | -                                   |
+| Sprint 1 Goal                     | El objetivo del presente Sprint es en desarrollar la Landing Page usando los wireframes y mockups diseñados previamente |
+| Sprint 1 - Velocity               | El equipo puede aceptar 20          |
+| Sprint 1 - Story Points           | La suma de los Story Points de los User Stories que se atenderá es 18 |
+
 #### 5.2.1.2. Sprint Backlog 1
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
+Esta sección no fue posible integrar en la presente entrega debido a que el código realizado fue para el desarrollo de la landing page.
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+No se utilizó ningún servicio adicional, pues este primer Sprint solo consta de la implementación del landing page.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Las actividades para el presente Sprint se repartieron en base a las secciones de la landing page que se plantearon como equipo previamente, para ello, se realizaron primero los styles en un archivo aparte .css y luego entre todo el equipo se desarrolló el index.html. De esta manera, el desarrollo de la landing page fue organizada y eficiente. A continuación, se mostrarán las evidencias de los commits:
+
 # Conclusiones
 ### Conclusiones y recomendaciones
+
+- Definición de la idea de negocio y la problemática a abordar utilizando herramientas como 5W's y 2H's, Lean UX, entrevistas, mapeo de escenarios As-Is y To-Be, entre otras, para identificar las características esenciales del futuro desarrollo de la aplicación web.
+
+- Establecimiento de pautas generales de estilo que sirvieron como base para diseñar los wireframes y mock-ups tanto de la aplicación web como de la página de inicio, reflejando los principios que guiarán el desarrollo futuro.
+
+- Desarrollo de la página de inicio en base al sprint actual, con cada miembro del equipo trabajando en diferentes secciones para crear una experiencia integral que facilite a los usuarios acceder a la aplicación web.
+
+- Avance en el desarrollo del frontend conforme al sprint actual, centrándose en las características prioritarias del backlog del producto, utilizando una API ficticia para avanzar en el frontend sin depender del backend.
+
 ### Video About-the-Team
 
 ---
