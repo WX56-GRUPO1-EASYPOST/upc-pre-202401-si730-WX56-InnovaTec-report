@@ -21,10 +21,11 @@ Producto: EasyPost
 Integrantes:
 - 
 -
--
+- Ticona luque, Rony Piero - U201420422
 - Quilla Luyo, Jorge Gerardo - U20211B197
 - Ybañez Esquerre, Miguel Angel - U20201B298
 - Avellaneda Ramos, Carlos Edward - U201923994
+
 Junio del 2024
 
 ---
@@ -32,7 +33,7 @@ Junio del 2024
 
 | Versión | Fecha      | Autor                                                                                               | Descripción de la modificación                                                                                     |
 |---------|------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| 1.00    | 12/04/2024 | -Ybañez Esquerre, Miguel Angel <br>-Quilla Luyo, Jorge Gerardo <br>-Avellaneda Ramos, Carlos Edward | Se creó la portada y el índice del informe, además se finalizaron todos los aspectos relacionados con el perfil de la solución, el perfil de la startup y la descripción de los antecedentes y problemáticas, así como los segmentos objetivo. Se completaron los capítulos de las pautas generales de estilo, los wireframes, mockups y sus correspondientes flujos de trabajo. También se desarrollaron los diagramas C4. |
+| 1.00    | 12/04/2024 | -Ybañez Esquerre, Miguel Angel <br>-Quilla Luyo, Jorge Gerardo <br>-Avellaneda Ramos, Carlos Edward<br>-Ticona Luque, Rony Piero | Se creó la portada y el índice del informe, además se finalizaron todos los aspectos relacionados con el perfil de la solución, el perfil de la startup y la descripción de los antecedentes y problemáticas, así como los segmentos objetivo. Se completaron los capítulos de las pautas generales de estilo, los wireframes, mockups y sus correspondientes flujos de trabajo. También se desarrollaron los diagramas C4. |
 
 ---
 # Project Report Collaboration Insights
@@ -57,8 +58,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones |
 | - |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| - |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Miguel Angel Ybañez Esquerre** <br> ***TB1:*** Participación en el desarrollo del Sprint 1, Source Code Managment y el correcto desarrollo de los repositorios de GitHub, como el manejo de ramas, creación de la organización y merge<br><br> **Quilla Luyo Jorge Gerardo** <br> ***TB1:*** Desarrollo del capítulo 1 del informe y entrevista <br> <br> **Carlos Edward Avellaneda Ramos** <br> ***TB1:*** Capitulo 4 del informe asi como la landing page y base de datos, se hizo la entrevista a 3 ingenieros<br><br> | ***TB1:*** Las responsabilidades fueron asignadas de manera individual para que cada miembro se enfocara en un área específica del trabajo. Una vez asignadas, todos completamos nuestras respectivas tareas de manera exitosa. Al concluir, cada integrante del equipo pudo expresar sus ideas de forma efectiva durante las comunicaciones verbales. | 
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | ***Miguel Angel Ybañez Esquerre*** <br> ***TB1:*** Se analizaron las convenciones de codigo para el correcto desarrollo de features, landing page y proximamente el web app <br> <br> ***Quilla Luyo Jorge Gerardo*** <br> ***TB1:*** Análisis de entrevista y cambios en las ramas. <br> <br> ***Carlos Edward Avellaneda Ramos*** <br> ***TB1:*** Análisis de entrevista y manejo del landing page. <br>                                                                                                                   | ***TB1:*** Durante este sprint, cada integrante del equipo se dedicó al desarrollo de los elementos designados para esta entrega. Posteriormente, cada uno comunicó sus contribuciones de manera formal y por escrito, asegurando así una presentación coherente y efectiva de nuestros avances. <br>  |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Miguel Angel Ybañez Esquerre** <br> ***TB1:*** Participación en el desarrollo del Sprint 1, Source Code Managment y el correcto desarrollo de los repositorios de GitHub, como el manejo de ramas, creación de la organización y merge<br><br> **Quilla Luyo Jorge Gerardo** <br> ***TB1:*** Desarrollo del capítulo 1 del informe y entrevista <br> <br> **Carlos Edward Avellaneda Ramos** <br> ***TB1:*** Capitulo 4 del informe asi como la landing page y base de datos, se hizo la entrevista a 3 ingenieros<br><br> **Rony Piero Ticona Luque**<br>***TB1:*** Desarrollo del capítulo 2 del informe y entrevista <br><br> | ***TB1:*** Las responsabilidades fueron asignadas de manera individual para que cada miembro se enfocara en un área específica del trabajo. Una vez asignadas, todos completamos nuestras respectivas tareas de manera exitosa. Al concluir, cada integrante del equipo pudo expresar sus ideas de forma efectiva durante las comunicaciones verbales. | 
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | ***Miguel Angel Ybañez Esquerre*** <br> ***TB1:*** Se analizaron las convenciones de codigo para el correcto desarrollo de features, landing page y proximamente el web app <br> <br> ***Quilla Luyo Jorge Gerardo*** <br> ***TB1:*** Análisis de entrevista y cambios en las ramas. <br> <br> ***Carlos Edward Avellaneda Ramos*** <br> ***TB1:*** Análisis de entrevista y manejo del landing page. <br><br> ***Rony Piero Ticona Luque*** <br> ***TB1:*** Análisis de competencia, análisis de entrevista, user personas, journey mapping y empathy mapping. <br>                                                                                                                  | ***TB1:*** Durante este sprint, cada integrante del equipo se dedicó al desarrollo de los elementos designados para esta entrega. Posteriormente, cada uno comunicó sus contribuciones de manera formal y por escrito, asegurando así una presentación coherente y efectiva de nuestros avances. <br>  |
 
 ---
 # Contenido
@@ -310,6 +311,18 @@ Acerca de mí: Soy una persona amigable, me gusta hacer creación de contenido, 
 
 ![Miguel Angel Ybañez](https://media.licdn.com/dms/image/D4E03AQGhEmnn3PY4Pw/profile-displayphoto-shrink_200_200/0/1698899674739?e=1717027200&v=beta&t=Nh3jCG4JwuTnk5JP7vxmFsFbhj6o2kJrG8nHcrO_G7g)
 
+**Nombre: Rony Piero Ticona Luque**
+
+Código: U201420422
+
+Carrera: Ingeniería de Software
+
+Acerca de mí:
+
+Me considero una persona responsable y comprometida con las actividades académicas en especial con los trabajos grupales, buscando constantemente oportunidades para colaborar y contribuir durante el proceso. Asimismo, me dedico a comunicar efectivamente los resultados obtenidos.
+
+![Gerardo Quilla](images/Piero.png)
+
 ## 1.2 Solution Profile
 Para comprender la solución debemos detallar aspectos que se abordarán a lo largo del proyecto y qué metas tendremos.
 
@@ -505,10 +518,20 @@ Se habló sobre la posibilidad de automatizar ciertos procesos y utilizar softwa
 Finalmente, se mencionó la intención de estructurar bien el sitio, definiendo los roles de los usuarios y sus funcionalidades para facilitar la interacción y la gestión de datos. El proceso terminaría con el diseño y la implementación de la interfaz de usuario, con un enfoque en la estética y la usabilidad.
 
 
+#### Entrevista 3
+
+![Entrevista](images/entrevista3.png)
+
+**Link de la entrevista:** [Entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EftWhYvfPk5KiNNk_UqTUxsBWm_UQ6K7C7u-n8CFruqFeg?e=V2HFgq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de la entrevista:** En la entrevista se menciona la problemática que ocurre sobre las instalaciones de postes y su seguimiento, Alexandra tiene el conocimiento de la empresa Enel es la que tiene mayor participación en este tipo de procesos. Nos comenta que en un proyecto de instalación de postes los puntos que se debe detallar deben tener la información a la disposición como el lugar las dimensiones, el tipo de material. En caso no se realice un seguimiento adecuado puede terminar en proyectos defectuoso. En esta parte de la entrevista se comenta del proyecto de la página web EasyPost, le parece una plataforma confiable ya que brinda información del paso a paso cómo va el proyecto de la instalación, una de los puntos mas importante es la transparencia de los datos que la plataforma garantiza y al finalizar la entrevista Alexandra nos brinda sugerencias de un apartado de mantenimiento de los postes ya instalados para una futura reparación..
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
 ![UserPersona](images/usertecnico.png)
+
+![UserPersona](images/usercliente.png)
 
 ### 2.3.2. User Task Matrix
 
@@ -538,10 +561,47 @@ Finalmente, se mencionó la intención de estructurar bien el sitio, definiendo 
 | Descargar resultado de cita | Siempre | Alta |
 | Enviar documentos solicitados | A veces | Media |
 
+**Usuario Cliente Company**
+
+| Tipo | Frecuencia | Importancia |
+| - | - | - |
+| Ver proyectos en la pagina | Siempre | Alta |
+| Reportes de instalaciones | Siempre | Alta |
+| Tickes de servicio | A veces | Alta |
+| Visualizar datos de usuario | Siempre | Media |
+| Ver documentos de clientes | A veces | Media |
+| Avance del proyecto | A veces | Alta |
+| Asignar tareas a resposables | Siempre | Alta |
+| Confirmación del proyecto | A veces | Media |
+
 ### 2.3.3. User Journey Mapping
+
+![UserJourneyMapping](images/journeymapping.png)
+
 ### 2.3.4. Empathy Mapping
+
+![EmpathyMapping](images/empathymapping.png)
+
 ### 2.3.5. As-is Scenario Mapping
+
+![ScenarioMapping](images/scenariomapping.png)
+
 ## 2.4. Ubiquitous Language
+
+Detalle de palabras especificas
+
+- Cliente: Nos referimos a un empresa publica o privada
+- Instalaciones: Proceso de montaje de un poste fisico en via publica o privada
+- Postes: Estructuras verticales utilizadas para soportar cables, equipos u otros componentes.
+- Diseño: Planificación y creación de la disposición y funcionamiento de las instalaciones.
+- Contratación: Proceso de selección y contratacion de personal para llevar a cabo las instalaciones.
+- Logística: Coordinación y gestión de los recursos necesarios para realizar las instalaciones de manera eficiente.
+- Seguridad: Implementación de medidas para proteger la integridad física de los trabajadores y garantizar la seguridad de las instalaciones.
+- Satisfacción del cliente: Medida de cómo los servicios de instalación cumplen con las expectativas y necesidades del cliente.
+- Planificación: Etapa inicial donde se establecen los objetivos y se desarrolla la estrategia para llevar a cabo las instalaciones.
+- Permisos: Autorizaciones requeridas por las autoridades locales o reguladoras para llevar a cabo ciertas instalaciones.
+- Garantía: Compromiso de la empresa de instalación de corregir cualquier problema que surja con las instalaciones dentro de un período de tiempo específico.
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
@@ -1219,5 +1279,7 @@ Las actividades para el presente Sprint se repartieron en base a las secciones d
 # Bibliografía
 
 - The Fiber Optic Association. (2023). Instalación. Recuperado de: https://www.thefoa.org/ESP/Instalacion.htm
+
+- Gobierno del Perú. (2016). EC.040 redes e instalaciones de comunicaciones. Recuperado de: https://www.gob.pe/institucion/munisantamariadelmar/informes-publicaciones/2619695-ec-040-redes-e-instalaciones-de-comunicaciones
 
 ---
