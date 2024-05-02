@@ -1616,6 +1616,19 @@ La página está diseñada siguiendo los principios de diseño web moderno, incl
 ### 4.4.3. Web Applications User Flow Diagrams
 
 ![wireframe](images/userflow.jpg)
+![Iniciar Sesión](images/UserFlow-Iniciar-Sesion.jpg)
+![Registrarse](images/UserFlow-Registrarse.jpg)
+![Ver Perfil](images/UserFlow-Usuario-Empresa-Ver-Perfil.jpg)
+![Aceptar Solicitud](images/UserFlow-Usuario-Empresa-Ver-y-aceptar-solicitudes.jpg)
+![Contactar Cliente](images/UserFlow-Usuario-Empresa-Contactar-Cliente.jpg)
+![Empresa Gestionar Proyecto](images/UserFlow-Usuario-Empresa-Gestionar-Proyecto.jpg)
+![Ver Perfil Cliente](images/UserFlow-Usuario-Cliente-Ver-Perfil.jpg)
+![Explorar Empresas](images/UserFlow-Usuario-Cliente-Explorar-y-enviar-solicitud-a-empresa-de-instalación-de-postes.jpg)
+![Contactar Empresas](images/UserFlow-Usuario-Cliente-Contactar-con-Empresa.jpg)
+![Dashboard](images/UserFlow-Usuario-Cliente-Visualizar-Dashboard-con-detalles-del-Proyecto.jpg)
+
+
+
 
 ## 4.5. Web Applications Prototyping
 
