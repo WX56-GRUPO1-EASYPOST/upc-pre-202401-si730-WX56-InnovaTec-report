@@ -1502,15 +1502,126 @@ La página está diseñada siguiendo los principios de diseño web moderno, incl
 
 ### 4.4.1. Web Applications Wireframes
 
+![Iniciar sesion](images/web-application-wifreframes/Wireframe-Usuario-Iniciar%20sesion.png)
+
+![Registrarse](images/web-application-wifreframes/Wireframe-Usuario-Registrarse.png)
+
+**Segmento: Cliente**
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Inicio.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Perfil.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Proyectos.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Explorar.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Ver%20detalles%20de%20empresa.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Enviar%20solicitud%20a%20empresa.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Dashboard.png)
+
+![](images/web-application-wifreframes/Wireframe-Cliente-Contacto.png)
+
+**Segmento: Empresas de instalación de postes**
+
+![](images/web-application-wifreframes/Wrieframe-Emrpesa-Inicio.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Perfil.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Proyectos.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Gestionar%20proyecto.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Ver%20solicitudes.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Ver%20adjuntos%20de%20solicitud.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Ver%20detalles%20de%20solicitud.png)
+
+![](images/web-application-wifreframes/Wireframe-Empresa-Contacto.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+![](images/wireflow-diagrams/WireFlow%20Iniciar%20Sesion.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Registrarse.jpg)
+
+**Segmento: Clientes**
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Cliente%20-%20Contactar%20con%20Empresa.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Cliente%20-%20Explorar%20y%20enviar%20solicitud%20a%20empresa%20de%20instalación%20de%20postes.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Cliente%20-%20Ver%20Perfil.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Cliente%20-%20Visualizar%20Dashboard%20con%20detalles%20del%20Proyecto.jpg)
+
+**Segmento: Empresas de instalación de postes**
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Empresa%20-%20Contactar%20Cliente.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Empresa%20-%20Gestionar%20Proyecto.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Empresa%20-%20Ver%20Perfil.jpg)
+
+![](images/wireflow-diagrams/WireFlow%20Usuario_%20Empresa%20-%20Ver%20y%20aceptar%20solicitudes.jpg)
+
+
 ### 4.4.2. Web Applications Mock-ups
+
+![](images/web-application-mockups/Usuario%20-%20Inicio%20de%20sesion.png)
+
+![](images/web-application-mockups/Usuario%20-%20Registrarse.png)
+
+**Segmento: Cliente**
+
+![](images/web-application-mockups/Cliente%20-%20Inicio.png)
+
+![](images/web-application-mockups/Cliente%20-%20perfil.png)
+
+![](images/web-application-mockups/Cliente%20-%20Proyectos.png)
+
+![](images/web-application-mockups/Cliente%20-%20Explorar%20empresas.png)
+
+![](images/web-application-mockups/Cliente%20-%20Ver%20detalles%20de%20emrpesa.png)
+
+![](images/web-application-mockups/Cleinte%20-%20Enviar%20solicitud%20a%20empresa.png)
+
+![](images/web-application-mockups/Cliente%20-%20Contacto.png)
+
+![](images/web-application-mockups/Cliente%20-%20Dashboard.png)
+
+
+**Segmento: Empresas de instalación de postes**
+
+![](images/web-application-mockups/Empresa%20-%20Inicio.png)
+
+![](images/web-application-mockups/Empresa-%20perfil.png)
+
+![](images/web-application-mockups/Empresa%20-%20Proyectos.png)
+
+![](images/web-application-mockups/Empresa%20-%20Ver%20solicitudes.png)
+
+![](images/web-application-mockups/Empresa%20-%20ver%20adjuntos%20de%20solicitud.png)
+
+![](images/web-application-mockups/Empresa%20-%20ver%20detalles%20de%20solicitud.png)
+
+![](images/web-application-mockups/Empresa%20-%20Gestionar%20Proyecto.png)
+
+![](images/web-application-mockups/Empresa%20-%20Contacto.png)
+
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
 ![wireframe](images/userflow.jpg)
 
 ## 4.5. Web Applications Prototyping
+
+![](images/web-application-prototyping/prototype.png)
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b197_upc_edu_pe/ETt7w7VE5INClVwXIWbnauoBan821TVsO3z2xoQanpyeZg?e=cIg2NE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## 4.6. Domain-Driven Software Architecture
 
