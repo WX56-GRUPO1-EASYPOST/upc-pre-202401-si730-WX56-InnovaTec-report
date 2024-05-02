@@ -1503,25 +1503,49 @@ Por ejemplo, el "Project Management Context" se enfoca en la gestión de proyect
 
 Esta descomposición en bounded contexts refleja un enfoque de diseño de software moderno, promoviendo la separación de preocupaciones y haciendo el sistema más manejable y adaptable a cambios futuros. También facilita la colaboración entre equipos, ya que cada equipo puede centrarse en un contexto específico sin interferir con el trabajo de otros.
 
-#### 4.6.3.1 Client Interaction Boundend Context
+#### 4.6.3.1 Company Management Boundend Context
 
 ![wireframe](images/diagrama-componente-1.png)
 
-#### 4.6.3.2 Client Interaction Boundend Context
+#### 4.6.3.2 Daily Activties Boundend Context
 
 ![wireframe](images/diagrama-componente-2.png)
 
-#### 4.6.3.3 Design and Planning Boundend Context
+#### 4.6.3.3 Dashbobard Boundend Context
 
 ![wireframe](images/diagrama-componente-3.png)
 
-#### 4.6.3.4 Document and Report Boundend Context
+#### 4.6.3.4 Feeing Boundend Context
 
 ![wireframe](images/diagrama-componente-4.png)
 
-#### 4.6.3.5 Georeferencing And Mapping Boundend Context
+#### 4.6.3.5 Notifications Boundend Context
 
 ![wireframe](images/diagrama-componente-5.png)
+
+#### 4.6.3.6 Poles Information and Desplegation Boundend Context
+
+![wireframe](images/diagrama-componente-6.png)
+
+#### 4.6.3.7 Project Management Boundend Context
+
+![wireframe](images/diagrama-componente-7.png)
+
+#### 4.6.3.8 Register Boundend Context
+
+![wireframe](images/diagrama-componente-8.png)
+
+#### 4.6.3.9 Requests Boundend Context
+
+![wireframe](images/diagrama-componente-9.png)
+
+#### 4.6.3.10 Task Boundend Context
+
+![wireframe](images/diagrama-componente-10.png)
+
+#### 4.6.3.11 Tickets Boundend Context
+
+![wireframe](images/diagrama-componente-11.png)
 
 ## 4.7. Software Object-Oriented Design
 
