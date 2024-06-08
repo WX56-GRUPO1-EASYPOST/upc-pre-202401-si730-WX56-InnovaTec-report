@@ -1526,25 +1526,25 @@ La página está diseñada siguiendo los principios de diseño web moderno, incl
 
 ![wireframe](images/userflow.jpg)
 
-![Iniciar Sesión](images/UserFlow-Iniciar-Sesion.jpg)
+![Iniciar Sesión](images/userflows-diagrams/UserFlow-Iniciar-Sesion.jpg)
 
-![Registrarse](images/UserFlow-Registrarse.jpg)
+![Registrarse](images/userflows-diagrams/UserFlow-Registrarse.jpg)
 
-![Ver Perfil](images/UserFlow-Usuario-Empresa-Ver-Perfil.jpg)
+![Ver Perfil](images/userflows-diagrams/UserFlow-Usuario-Empresa-Ver-Perfil.jpg)
 
-![Aceptar Solicitud](images/UserFlow-Usuario-Empresa-Ver-y-aceptar-solicitudes.jpg)
+![Aceptar Solicitud](images/userflows-diagrams/UserFlow-Usuario-Empresa-Ver-y-aceptar-solicitudes.jpg)
 
-![Contactar Cliente](images/UserFlow-Usuario-Empresa-Contactar-Cliente.jpg)
+![Contactar Cliente](images/userflows-diagrams/UserFlow-Usuario-Empresa-Contactar-Cliente.jpg)
 
-![Empresa Gestionar Proyecto](images/UserFlow-Usuario-Empresa-Gestionar-Proyecto.jpg)
+![Empresa Gestionar Proyecto](images/userflows-diagrams/UserFlow-Usuario-Empresa-Gestionar-Proyecto.jpg)
 
-![Ver Perfil Cliente](images/UserFlow-Usuario-Cliente-Ver-Perfil.jpg)
+![Ver Perfil Cliente](images/userflows-diagrams/UserFlow-Usuario-Cliente-Ver-Perfil.jpg)
 
-![Explorar empresas](images/UserFlow-Usuario-Cliente-Explorar-y-enviar-solicitud-a-empresa-de-instalación-de-postes.jpg)
+![Explorar empresas](images/userflows-diagrams/UserFlow-Usuario-Cliente-Explorar-y-enviar-solicitud-a-empresa-de-instalación-de-postes.jpg)
 
-![Contactar Empresas](images/UserFlow-Usuario-Cliente-Contactar-con-Empresa.jpg)
+![Contactar Empresas](images/userflows-diagrams/UserFlow-Usuario-Cliente-Contactar-con-Empresa.jpg)
 
-![Dashboard](images/UserFlow-Usuario-Cliente-Visualizar-Dashboard-con-detalles-del-Proyecto.jpg)
+![Dashboard](images/userflows-diagrams/UserFlow-Usuario-Cliente-Visualizar-Dashboard-con-detalles-del-Proyecto.jpg)
 
 ## 4.5. Web Applications Prototyping
 
@@ -1559,7 +1559,7 @@ El diagrama de contexto proporciona una visión de alto nivel del sistema "EasyP
 
 Este diagrama es crucial para entender el alcance del sistema "EasyPost.com", que se enfoca en la gestión de proyectos de infraestructura y tendido de fibra óptica. La claridad en las interacciones externas es fundamental para definir los límites del sistema y las expectativas de los usuarios. Además, ayuda a identificar las necesidades de integración con sistemas externos, como bases de datos o servicios de autenticación, que podrían ser relevantes pero no se especifican directamente en este nivel.
 
-![wireframe](images/diagrama-de-contexto.png)
+![wireframe](images/bounded-contexts/diagrama-de-contexto.png)
 
 ### 4.6.2. Software Architecture Container Diagrams
 El diagrama de contenedores descompone el sistema "EasyPost.com" en sus componentes de alto nivel, mostrando la tecnología subyacente y cómo se organizan para proporcionar la funcionalidad del sistema. Los contenedores identificados incluyen la "Web App", desarrollada con Angular y Java Spring Boot, y el "API Gateway", que utiliza Spring Cloud Gateway.
@@ -1568,7 +1568,7 @@ Este nivel de detalle es esencial para comprender la arquitectura técnica del s
 
 El enfoque en estos contenedores ayuda a los desarrolladores y arquitectos a planificar y ejecutar la implementación y mantenimiento del sistema, garantizando que cada componente esté correctamente integrado y que el sistema sea escalable y seguro.
 
-![wireframe](images/diagrama-container.png)
+![wireframe](images/bounded-contexts/diagrama-container.png)
 
 ### 4.6.3. Software Architecture Components Diagrams
 Los diagramas de componentes, o bounded contexts, profundizan en la estructura interna de los contenedores identificados, como el "Project Management Context", "Design and Planning Bounded Context", entre otros. Cada uno de estos contexts encapsula una parte específica de la lógica de negocio del sistema, permitiendo una mejor organización del código y facilitando el mantenimiento y la escalabilidad del sistema.
@@ -1579,47 +1579,47 @@ Esta descomposición en bounded contexts refleja un enfoque de diseño de softwa
 
 #### 4.6.3.1 Company Management Boundend Context
 
-![wireframe](images/diagrama-componente-1.png)
+![wireframe](images/bounded-contexts/diagrama-componente-1.png)
 
 #### 4.6.3.2 Daily Activties Boundend Context
 
-![wireframe](images/diagrama-componente-2.png)
+![wireframe](images/bounded-contexts/diagrama-componente-2.png)
 
 #### 4.6.3.3 Dashbobard Boundend Context
 
-![wireframe](images/diagrama-componente-3.png)
+![wireframe](images/bounded-contexts/diagrama-componente-3.png)
 
 #### 4.6.3.4 Feeing Boundend Context
 
-![wireframe](images/diagrama-componente-4.png)
+![wireframe](images/bounded-contexts/diagrama-componente-4.png)
 
 #### 4.6.3.5 Notifications Boundend Context
 
-![wireframe](images/diagrama-componente-5.png)
+![wireframe](images/bounded-contexts/diagrama-componente-5.png)
 
 #### 4.6.3.6 Poles Information and Desplegation Boundend Context
 
-![wireframe](images/diagrama-componente-6.png)
+![wireframe](images/bounded-contexts/diagrama-componente-6.png)
 
 #### 4.6.3.7 Project Management Boundend Context
 
-![wireframe](images/diagrama-componente-7.png)
+![wireframe](images/bounded-contexts/diagrama-componente-7.png)
 
 #### 4.6.3.8 Register Boundend Context
 
-![wireframe](images/diagrama-componente-8.png)
+![wireframe](images/bounded-contexts/diagrama-componente-8.png)
 
 #### 4.6.3.9 Requests Boundend Context
 
-![wireframe](images/diagrama-componente-9.png)
+![wireframe](images/bounded-contexts/diagrama-componente-9.png)
 
 #### 4.6.3.10 Task Boundend Context
 
-![wireframe](images/diagrama-componente-10.png)
+![wireframe](images/bounded-contexts/diagrama-componente-10.png)
 
 #### 4.6.3.11 Tickets Boundend Context
 
-![wireframe](images/diagrama-componente-11.png)
+![wireframe](images/bounded-contexts/diagrama-componente-11.png)
 
 ## 4.7. Software Object-Oriented Design
 
