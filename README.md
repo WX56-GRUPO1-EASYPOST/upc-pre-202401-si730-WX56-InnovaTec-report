@@ -31,10 +31,11 @@ Junio del 2024
 ---
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor                                                                                                                                                                    | Descripción de la modificación                                                                                     |
-|---------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Versión | Fecha | Autor | Descripción de la modificación |
+|-|-|-|-|
 | 1.00    | 12/04/2024 | -Ybañez Esquerre, Miguel Angel <br> - Chavez Guerrero, Luis Sebastian <br> -Quilla Luyo, Jorge Gerardo <br>-Avellaneda Ramos, Carlos Edward<br>-Ticona Luque, Rony Piero | Se creó la portada y el índice del informe, además se finalizaron todos los aspectos relacionados con el perfil de la solución, el perfil de la startup y la descripción de los antecedentes y problemáticas, así como los segmentos objetivo. Se completaron los capítulos de las pautas generales de estilo, los wireframes, mockups y sus correspondientes flujos de trabajo. También se desarrollaron los diagramas C4. |
 | 1.1    | 02/05/2024 | -Ybañez Esquerre, Miguel Angel <br> - Chavez Guerrero, Luis Sebastian <br> -Quilla Luyo, Jorge Gerardo <br>-Avellaneda Ramos, Carlos Edward<br>-Ticona Luque, Rony Piero | se realizaron correciones de las Users Stories y la implementación de un sprint 2 para el desarrollo de la web app |
+|2.0|09/06/2024|-Ybañez Esquerre, Miguel Angel <br> -Quilla Luyo, Jorge Gerardo <br>-Avellaneda Ramos, Carlos Edward<br>-Ticona Luque, Rony Piero|Se realizacon correcciones al informe, entrevistas de validación sobre nuestra aplicación e implementación de un sprint 3|
 
 ---
 # Project Report Collaboration Insights
@@ -53,7 +54,7 @@ Para la elaboración del informe, se han realizado las siguientes actividades:
 
 ---
 
-TP: Se han desarrollado las actividades correspondientes para la entrega TP en el siguiente repositorio de Guthub dentro de la organización del equipo: Link de repositorio Github: https://github.com/WX56-GRUPO1-EASYPOST/upc-pre-202401-si730-WX56-InnovaTec-report
+TP: Se han desarrollado las actividades correspondientes para la entrega TP en el siguiente repositorio de Github dentro de la organización del equipo: Link de repositorio Github: https://github.com/WX56-GRUPO1-EASYPOST/upc-pre-202401-si730-WX56-InnovaTec-report
 
 Para la elaboración del informe se realizaron actividades tales como:
 
@@ -68,15 +69,26 @@ Para la elaboración del informe se realizaron actividades tales como:
 <img src="./images/insight 2.PNG" alt="insight2"/>
 <img src="./images/commits2.PNG" alt="commits2"/>
 
+---
+
+TB2: Se han desarrollado las actividades correspondientes para la entrega TB2 en el siguiente repositorio de Github dentro de la organización del equipo: Link de repositorio Github: https://github.com/WX56-GRUPO1-EASYPOST/upc-pre-202401-si730-WX56-InnovaTec-report
+
+Para la elaboración del informe se realizaron actividades tales como:
+
+* 1
+
+<img src="" alt="insight3"/>
+<img src="" alt="commits3"/>
+
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 3** <br> Criterio: *Capacidad de comunicarse efectivamente con un rango de audiencias.*
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
-| Criterio específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones |
-| - |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| - |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Luis Sebastian Chavez Guerrero** <br> ***TB1:*** Desarrollo del capítulo  del capitulo 3 del informe<br> <br> ***TP:*** Desarrollo del Toolbar y footer de la pagina<br> **Miguel Angel Ybañez Esquerre** <br> ***TB1:*** Participación en el desarrollo del Sprint 1, Source Code Managment y el correcto desarrollo de los repositorios de GitHub, como el manejo de ramas, creación de la organización y merge<br> <br> ***TP:*** Desarrollo de componente solicitudes, como el manejo de ramas, creación de la organización y merge<br> <br> **Quilla Luyo Jorge Gerardo** <br> ***TB1:*** Desarrollo del capítulo 1 del informe y entrevista <br> <br> ***TP:*** Desarrollo del componente contacto de la pagina <br>  <br> **Carlos Edward Avellaneda Ramos** <br> ***TB1:*** Capitulo 4 del informe asi como la landing page y base de datos, se hizo la entrevista a 3 ingenieros<br> <br> ***TP:*** Desarrollo de componente Gestionar proyecto<br> <br> **Rony Piero Ticona Luque**<br>***TB1:*** Desarrollo del capítulo 2 del informe y entrevista <br> <br>***TP:*** Desarrollo del componente home <br> <br> | ***TB1:*** Las responsabilidades fueron asignadas de manera individual para que cada miembro se enfocara en un área específica del trabajo. Una vez asignadas, todos completamos nuestras respectivas tareas de manera exitosa. Al concluir, cada integrante del equipo pudo expresar sus ideas de forma efectiva durante las comunicaciones verbales. <br> ***TP:*** Las responsabilidades fueron asignadas de manera individual para que cada miembro se enfocara en un área específica del proyecto web. Una vez asignadas, todos completamos nuestras respectivas tareas de manera exitosa y se realizaron entregas individuales por medio de la plataforma Github. Al concluir, cada integrante del equipo pudo expresar sus ideas de forma efectiva durante las comunicaciones verbales. | 
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. |***Luis Sebastian Chavez Guerrero*** <br> ***TB1:*** Analisis de la información recopilada durante las investigaciones y definir los requisitos específicos de los productos digitales. <br> <br> ***TP:*** Analisis y desarrollo de presentación de trabajo parcial. <br> ***Miguel Angel Ybañez Esquerre*** <br> ***TB1:*** Se analizaron las convenciones de codigo para el correcto desarrollo de features, landing page y proximamente el web app <br> <br> ***TP:*** Desarrollo de componentes, merge de la plataforma y realizar informe de trabajo parcial. <br> <br> ***Quilla Luyo Jorge Gerardo*** <br> ***TB1:*** Análisis de entrevista y cambios en las ramas. <br> <br> ***TP:*** Desarrollos de wireflow, userflow diseño de la plataforma. <br> <br> ***Carlos Edward Avellaneda Ramos*** <br> ***TB1:*** Análisis de entrevista y manejo del landing page. <br> <br> ***TP:*** Desarrollo de sieño de la plataforma y modelado. <br> <br> ***Rony Piero Ticona Luque*** <br> ***TB1:*** Análisis de competencia, análisis de entrevista, user personas, journey mapping y empathy mapping. <br>                                     <br> ***TP:*** Desarrollo de informe y diseño de la plataforma. <br>                                                                               | ***TB1:*** Durante este sprint, cada integrante del equipo se dedicó al desarrollo de los elementos designados para esta entrega. Posteriormente, cada uno comunicó sus contribuciones de manera formal y por escrito, asegurando así una presentación coherente y efectiva de nuestros avances. <br>  ***TP:*** Durante este sprint2, cada integrante del equipo se dedicó al desarrollo de los componentes de la pagina web y elementos designados para esta entrega. Posteriormente, cada uno comunicó sus contribuciones de manera formal y por escrito, asegurando así una presentación coherente y efectiva de nuestros avances. <br> |
+| Criterio específico | Acciones realizadas | Conclusiones |
+| - | - | - |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | **Miguel Angel Ybañez Esquerre** <br> ***TB1:*** Participación en el desarrollo del Sprint 1, Source Code Managment y el correcto desarrollo de los repositorios de GitHub, como el manejo de ramas, creación de la organización y merge<br> <br> ***TP:*** Desarrollo de componente solicitudes, como el manejo de ramas, creación de la organización y merge. <br> <br> ***TB2:*** <br> <br> **Quilla Luyo Jorge Gerardo** <br> ***TB1:*** Desarrollo del capítulo 1 del informe y entrevista <br> <br> ***TP:*** Desarrollo del componente contacto de la pagina. <br> <br> ***TB2:***  <br> <br> **Carlos Edward Avellaneda Ramos** <br> ***TB1:*** Capitulo 4 del informe asi como la landing page y base de datos, se hizo la entrevista a 3 ingenieros<br> <br> ***TP:*** Desarrollo de componente Gestionar proyecto. <br> <br> ***TB2:*** <br> <br> **Rony Piero Ticona Luque**<br>***TB1:*** Desarrollo del capítulo 2 del informe y entrevista <br> <br>***TP:*** Desarrollo del componente home <br> <br> ***TB2:*** | ***TB1:*** Las responsabilidades fueron asignadas de manera individual para que cada miembro se enfocara en un área específica del trabajo. Una vez asignadas, todos completamos nuestras respectivas tareas de manera exitosa. Al concluir, cada integrante del equipo pudo expresar sus ideas de forma efectiva durante las comunicaciones verbales. <br> ***TP:*** Las responsabilidades fueron asignadas de manera individual para que cada miembro se enfocara en un área específica del proyecto web. Una vez asignadas, todos completamos nuestras respectivas tareas de manera exitosa y se realizaron entregas individuales por medio de la plataforma Github. Al concluir, cada integrante del equipo pudo expresar sus ideas de forma efectiva durante las comunicaciones verbales. <br> ***TB2:*** | 
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería. | ***Miguel Angel Ybañez Esquerre*** <br> ***TB1:*** Se analizaron las convenciones de codigo para el correcto desarrollo de features, landing page y proximamente el web app <br> <br> ***TP:*** Desarrollo de componentes, merge de la plataforma y realizar informe de trabajo parcial. <br> <br> ***TB2:*** <br> <br> ***Quilla Luyo Jorge Gerardo*** <br> ***TB1:*** Análisis de entrevista y cambios en las ramas. <br> <br> ***TP:*** Desarrollos de wireflow, userflow diseño de la plataforma. <br> <br> ***TB2:*** <br> <br> ***Carlos Edward Avellaneda Ramos*** <br> ***TB1:*** Análisis de entrevista y manejo del landing page. <br> <br> ***TP:*** Desarrollo de sieño de la plataforma y modelado. <br> <br> ***TB2:*** <br> <br> ***Rony Piero Ticona Luque*** <br> ***TB1:*** Análisis de competencia, análisis de entrevista, user personas, journey mapping y empathy mapping. <br> <br> ***TP:*** Desarrollo de informe y diseño de la plataforma. <br> <br> ***TB2:*** | ***TB1:*** Durante este sprint, cada integrante del equipo se dedicó al desarrollo de los elementos designados para esta entrega. Posteriormente, cada uno comunicó sus contribuciones de manera formal y por escrito, asegurando así una presentación coherente y efectiva de nuestros avances. <br>  ***TP:*** Durante este sprint2, cada integrante del equipo se dedicó al desarrollo de los componentes de la pagina web y elementos designados para esta entrega. Posteriormente, cada uno comunicó sus contribuciones de manera formal y por escrito, asegurando así una presentación coherente y efectiva de nuestros avances. <br> ***TB2:***  |
 
 ---
 # Contenido
@@ -147,111 +159,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     - [4.8.1. Database Diagram](#481-database-diagram)
 
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Student Outcome](#student-outcome)
-- [Contenido](#contenido)
-  - [Tabla de contenidos](#tabla-de-contenidos)
-    - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [Capítulo I: Introducción](#capítulo-i-introducción-1)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2 Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
-  - [2.1 Competidores](#21-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [Entrevista 1](#entrevista-1)
-      - [Entrevista 2](#entrevista-2)
-      - [Entrevista 3](#entrevista-3)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
-- [4.1. Style Guidelines](#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-  - [4.2.1. Organization Systems](#421-organization-systems)
-  - [4.2.2. Labeling Systems](#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-  - [4.2.4. Searching Systems](#424-searching-systems)
-  - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-upX](#432-landing-page-mock-upx)
-      - [Encabezado y Navegación](#encabezado-y-navegación)
-      - [Sección de Descripción](#sección-de-descripción)
-      - [Nuestros Servicios](#nuestros-servicios)
-      - [Nuestros Proyectos](#nuestros-proyectos)
-      - [Pie de Página](#pie-de-página)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
-    - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-      - [4.6.3.1 Company Management Boundend Context](#4631-company-management-boundend-context)
-      - [4.6.3.2 Daily Activties Boundend Context](#4632-daily-activties-boundend-context)
-      - [4.6.3.3 Dashbobard Boundend Context](#4633-dashbobard-boundend-context)
-      - [4.6.3.4 Feeing Boundend Context](#4634-feeing-boundend-context)
-      - [4.6.3.5 Notifications Boundend Context](#4635-notifications-boundend-context)
-      - [4.6.3.6 Poles Information and Desplegation Boundend Context](#4636-poles-information-and-desplegation-boundend-context)
-      - [4.6.3.7 Project Management Boundend Context](#4637-project-management-boundend-context)
-      - [4.6.3.8 Register Boundend Context](#4638-register-boundend-context)
-      - [4.6.3.9 Requests Boundend Context](#4639-requests-boundend-context)
-      - [4.6.3.10 Task Boundend Context](#46310-task-boundend-context)
-      - [4.6.3.11 Tickets Boundend Context](#46311-tickets-boundend-context)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams.](#471-class-diagrams)
-    - [Clases Principales](#clases-principales)
-      - [Usuario](#usuario)
-      - [Proyecto](#proyecto)
-      - [Ticket](#ticket)
-      - [Documento](#documento)
-      - [Georreferencia](#georreferencia)
-    - [Relaciones](#relaciones)
-    - [Métodos Clave](#métodos-clave)
-    - [Automatización y Escalabilidad](#automatización-y-escalabilidad)
-    - [4.7.2. Class Dictionary.](#472-class-dictionary)
-  - [4.8. Database Design.](#48-database-design)
-    - [4.8.1. Database Diagram.](#481-database-diagram)
-    - [Entidades Principales](#entidades-principales)
-      - [Usuarios](#usuarios)
-      - [Proyectos](#proyectos)
-      - [Tickets](#tickets)
-      - [Documentos y Reportes](#documentos-y-reportes)
-      - [Georreferenciación](#georreferenciación)
-    - [Relaciones](#relaciones-1)
-    - [Automatización y Soporte de Decisiones](#automatización-y-soporte-de-decisiones)
-    - [Escalabilidad y Flexibilidad](#escalabilidad-y-flexibilidad)
-- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -282,7 +189,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation-1)
     - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
@@ -292,6 +198,20 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+      - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+      - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísiticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-The-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
     - [Video About-the-Team](#video-about-the-team)
@@ -310,17 +230,6 @@ En esta oportunidad presentamos EasyPost, una aplicación web la cual ofrece her
 **Visión:** Ser la empresa con una solución innovadora para la problemática de este sector, ofreciendo simplificación y mejora a este proceso
 
 ### 1.1.2 Perfiles de integrantes del equipo
-**Nombre: Luis Sebastian Chavez Guerrero**
-
-Codigo: U202216444
-
-Carrera: Ingenieria de software
-
-Acerca de mi:
-
-Mi nombre es Luis Sebastian Chavez Guerrero tengo 19 años de edad y actualmente curso el quinto ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas (UPC).Tengo conocimientos de diferentes lenguajes de programación como C++ y Java entre otros. Me considero que soy una persona con la capacidad de trabajar de manera eficiente ademas cuento con la habilidad para resolver problemas de la mejor manera posible.
-
-<img src="images/img-foto.png" width="150" height="200">
 
 **Nombre: Jorge Gerardo Quilla Luyo**
 
@@ -332,7 +241,7 @@ Acerca de mí:
 
 Me considero una persona puntual y comprometida con los trabajos en grupo, siempre intento ayudar a lo largo del trabajo en desarrollo. También me esfuerzo en comunicar los resultados e investigar temas nuevos por cuenta propia.
 
-![Gerardo Quilla](images/Gerardo.png)
+<img src="images/integrantes/Gerardo.png" alt="Gerardo Quilla" height="250">
 
 **Nombre: Carlos Edward Avellaneda Ramos**
 
@@ -344,7 +253,7 @@ Acerca de mí:
 
 Soy Carlos Avellaneda, estudiante de la carrera de Ingenieria de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos en distintos lenguajes, tales como: Java, C++, Python y conocimientos básicos en C#. Soy una persona bastante proactiva y espero que eso ayude en el desarrollo de nuestra startup grupal.
 
-<img src="images/charlie.png" alt="Gerardo Quilla" width="250" height="250">
+<img src="images/integrantes/charlie.png" alt="Carlos Avellaneda" height="250">
 
 
 Nombre completo: Miguel Angel Ybañez Esquerre
@@ -355,7 +264,7 @@ Carrera: Ingeniería de Software
 
 Acerca de mí: Soy una persona amigable, me gusta hacer creación de contenido, y también me agrada el trabajo en equipo. Tengo experiencia en Frontend y Backend, he realizado proyectos para empresas pequeñas. Me especializo en la programación y tengo conocimientos en la creación de páginas web y videojuegos. Además de usar herramientas para edición de imágenes o videos.
 
-![Miguel Angel Ybañez](https://media.licdn.com/dms/image/D4E03AQGhEmnn3PY4Pw/profile-displayphoto-shrink_200_200/0/1698899674739?e=1717027200&v=beta&t=Nh3jCG4JwuTnk5JP7vxmFsFbhj6o2kJrG8nHcrO_G7g)
+<img src="images/integrantes/Miguel.jpg" alt="Miguel Ybañez" height="250">
 
 **Nombre: Rony Piero Ticona Luque**
 
@@ -367,7 +276,7 @@ Acerca de mí:
 
 Me considero una persona responsable y comprometida con las actividades académicas en especial con los trabajos grupales, buscando constantemente oportunidades para colaborar y contribuir durante el proceso. Asimismo, me dedico a comunicar efectivamente los resultados obtenidos.
 
-![Gerardo Quilla](images/Piero.png)
+<img src="images/integrantes/Piero.png" alt="Rony Ticona" height="250">
 
 ## 1.2 Solution Profile
 Para comprender la solución debemos detallar aspectos que se abordarán a lo largo del proyecto y qué metas tendremos.
@@ -1569,7 +1478,7 @@ La página está diseñada siguiendo los principios de diseño web moderno, incl
 ![WireFlow-Empresa-Ver-solicitudes](images/wireflow-diagrams/WireFlow%20Usuario_%20Empresa%20-%20Ver%20y%20aceptar%20solicitudes.jpg)
 
 
-### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications Mock-ups
 
 ![Iniciar sesion](images/web-application-mockups/Usuario%20-%20Inicio%20de%20sesion.png)
 
@@ -1613,7 +1522,7 @@ La página está diseñada siguiendo los principios de diseño web moderno, incl
 ![Empresa-contacto](images/web-application-mockups/Empresa%20-%20Contacto.png)
 
 
-### 4.4.3. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 
 ![wireframe](images/userflow.jpg)
 
@@ -2243,12 +2152,12 @@ Las actividades para el presente Sprint se repartieron en base a las secciones d
 <img src="./images/Insight.PNG" alt="Insight"/>
 <img src="./images/network.PNG" alt="Insight"/>
 
-## 5.2. Landing Page, Services & Applications Implementation
+
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
 | Property                          | Value                               |
 |-----------------------------------|-------------------------------------|
-| Sprint #                          | 1                                   |
+| Sprint #                          | 2                                   |
 | Sprint Planning Background        | -                                   |
 | Date                              | 2024-05-01                          |
 | Time                              | 18:00 PM                            |
@@ -2408,6 +2317,180 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 
 <img src="./images/insight 2.PNG" alt="insight2"/>
 <img src="./images/commits2.PNG" alt="commits2"/>
+
+
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning 3
+| Property                          | Value                               |
+|-----------------------------------|-------------------------------------|
+| Sprint #                          | 3                                   |
+| Sprint Planning Background        | -                                   |
+| Date                              | 2024-05-01                          |
+| Time                              | 18:00 PM                            |
+| Location                          | Virtual via Google Meet             |
+| Prepared By                       | Ybañez Esquerre, Miguel Angel     |
+| Attendees                         | Ybañez Esquerre, Miguel Angel / Quilla Luyo, Jorge Gerardo / Ticona Luque, Rony Piero / Chavez Guerrero, Luis Sebastián / Avellaneda Ramos, Carlos Edward |
+| Sprint 1 - Review Summary         | Se realizo el landing page con Angular siguientdo as guias de estilo previas     |
+| Sprint 1 - Retrospective Summary | Mejoramos los User Stories, Bounded Context y tambien el diseño de diagrama de clases     |
+| Sprint Goal & User Stories        | -                                   |
+| Sprint 1 Goal                     | El objetivo del presente Sprint es en desarrollar el fronted de la aplicación web y corregir los errores del sprint anterior |
+| Sprint 1 - Velocity               | El equipo puede aceptar 25 Story Points          |
+| Sprint 1 - Story Points           | La suma de los Story Points de los User Stories que se atenderá es 18 |
+
+#### 5.2.3.2. Sprint Backlog 3
+
+<table>
+<tbody>
+    <tr>
+        <th valign="top">Sprint 2</th>
+        <th colspan="7" valign="top">
+        Sprint: Implementar el frontend de las principales historias de usuario del product backlog </th>
+    </tr>
+    <tr>
+        <td colspan="2" valign="top">User Story</td>
+        <td colspan="6" valign="top">Work-Item / Task</td>
+    </tr>
+    <tr>
+        <td valign="top">Id</td>
+        <td valign="top">Title</td>
+        <td valign="top">Id</td>
+        <td valign="top">Title</td>
+        <td valign="top">Description</td>
+        <td valign="top">Estimation (Hours)</td>
+        <td valign="top">Assigned To</td><td valign="top"><p dir="auto">Status </p><p dir="auto">(To-do / </p><p dir="auto">InProcess / </p><p dir="auto">To Review / </p><p dir="auto">Done)</p></td>
+    </tr>
+    <tr>
+        <td rowspan="3" valign="top">HU-07</td>
+        <td rowspan="3" valign="top">Recepción de Solicitudes Cotización</td>
+        <td valign="top">07\.1</td>
+        <td valign="top">Implementar lista de solicitudes</td>
+        <td valign="top">Implementar una lista que contendra las solicitudes del cliente hacia cierta empresa </td>
+        <td valign="top">2</td>
+        <td valign="top">Ybañez Esquerre. Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">07\.2</td>
+        <td valign="top">Extraer los datos del cliente</td>
+        <td valign="top">Se mostrará los datos del cliente que realizo la solicitud y mostrara sus datos registrados</td>
+        <td valign="top">2</td>
+        <td valign="top">Ybañez Esquerre. Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">07\.3</td>
+        <td valign="top">Mostrar ubicación en un mapa </td>
+        <td valign="top">Se mostrara la ubicacion aproximada de donde se busca el servicio de instalacion a travez de google maps</td>
+        <td valign="top">3</td>
+        <td valign="top">Ybañez Esquerre. Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-01</td>
+        <td rowspan="1" valign="top">Registro de nuevo Usuario</td>
+        <td valign="top">01</td>
+        <td valign="top">creación de nuevo usuario</td>
+        <td valign="top">implementar la creación de nuevo usuario al api atraves del registro</td>
+        <td valign="top">3</td>
+        <td valign="top">Avellaneda Ramos, Carlos Edward</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-02</td>
+        <td rowspan="1" valign="top">Inicio de Sesión de Usuario</td>
+        <td valign="top">02</td>
+        <td valign="top">implementar el inicio de sesion</td>
+        <td valign="top">realizar peticiones al Api para iniciar sesion con usuario existente </td>
+        <td valign="top">3</td>
+        <td valign="top">Avellaneda Ramos, Carlos Edward</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-09</td>
+        <td rowspan="1" valign="top">Comunicación con los clientes</td>
+        <td valign="top">09</td>
+        <td valign="top">realizar un chat con los clientes que tenga la empresa</td>
+        <td valign="top">hacer un chat con los clientes relacionados a la empresa en tiempo real</td>
+        <td valign="top">3</td>
+        <td valign="top">Quilla Luyo, Jorge Gerardo</td>
+        <td valign="top">in Progress</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-08</td>
+        <td rowspan="1" valign="top">Gestión de Proyectos Asignados</td>
+        <td valign="top">09</td>
+        <td valign="top">realizar un panel de gestion de proyectos</td>
+        <td valign="top">implementar un dashboard donde se pueda visualizar los proyectos aceptados por la empresa, para su correcto desarrollo</td>
+        <td valign="top">3</td>
+        <td valign="top">Ticona Luque, Rony Piero</td>
+        <td valign="top">in Progress</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-13</td>
+        <td rowspan="1" valign="top">Mejora de la navegación</td>
+        <td valign="top">13</td>
+        <td valign="top">agregar un toolbar para la navegación</td>
+        <td valign="top">implementar un toolbar que cuente con los botones que redirijan al usuario hacia donde quiere ir</td>
+        <td valign="top">3</td>
+        <td valign="top">Chavez Guerrero, Luis Sebastian</td>
+        <td valign="top">in Progress</td>
+    </tr>
+    </tbody>
+</table>
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+
+| Repository             | Branch  | Commit Id | Commit Message              | Commit Message Body | Commited on (Date) |
+|------------------------|---------|-----------|-----------------------------|---------------------|---------------------|
+| easypost-frontend-app   | develop | 1950124   | feat: home projects | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | d0d10b9   | fix: route toolbar | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | 60daed6   | feat: home structure added | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | 9ed1c8a   | feat: contact added | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | 29d31d1   | fix: toolbar and footer component | -                   | 02/05/2024          |
+| easypost-frontend-app   | Carlos_Avellaneda | 21c9371   | fix: rol buttons on register component | -                   | 02/05/2024          |
+| easypost-frontend-app   | Miguel_Ybañez | 0b885e7   | fix: register | -                   | 02/05/2024          |
+| easypost-frontend-app   | Miguel_Ybañez | 5718038   | Feat: request component | -                   | 02/05/2024          |
+
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+Esta sección no fue posible integrar en la presente entrega.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+En este apartado se hace presenta la ejecución del frontend del producto solución EasyPost.
+
+<img src="./images/video.PNG" alt="video"/>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b298_upc_edu_pe/EfKkL2fXUyFKkaXs9ruERrABCalHFaJhKwcZhiU_905iYg?e=O8oPvA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Se utilizo JSON SERVER para la implementacion de un API:
+
+| Endpoint       | Detalles                                                                                            |
+|----------------|-----------------------------------------------------------------------------------------------------|
+| Usuarios          | En este endpoint se representan los datos del usuario.                                 |
+| requests  | En este endpoint se muestra los detalles de la solicitud                                          |
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta entrega no fue posible el despliegue de la aplicación web ni del JSON SERVER.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Las actividades para el presente Sprint se repartieron en base a la priorización de historias de usuario dentro del producto backlog referidas a las funcionalidades principales de la aplicación web, para ello, se realizaron primero branches por features abordados dentro del sprint para que cada integrante trabaje en esas branches y luego realice el push para ver los cambios. De esta manera, el desarrollo del frontend fue organizada y eficiente. A continuación, se mostrarán las evidencias de los commits:
+
+<img src="" alt="insight3"/>
+<img src="" alt="commits3"/>
+
+
+## 5.3. Validation Interviews
+### 5.3.1. Diseño de Entrevistas
+### 5.3.2. Registro de Entrevistas
+### 5.3.3. Evaluaciones según heurísticas
+## 5.4. Video About-The-Product
+
 
 # Conclusiones
 ### Conclusiones y recomendaciones
