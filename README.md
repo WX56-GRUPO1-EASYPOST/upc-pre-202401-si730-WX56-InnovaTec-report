@@ -159,6 +159,111 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     - [4.8.1. Database Diagram](#481-database-diagram)
 
 ### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Student Outcome](#student-outcome)
+- [Contenido](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+    - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+- [Capítulo I: Introducción](#capítulo-i-introducción-1)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+  - [2.1 Competidores](#21-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [Entrevista 1](#entrevista-1)
+      - [Entrevista 2](#entrevista-2)
+      - [Entrevista 3](#entrevista-3)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design-1)
+- [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-upX](#432-landing-page-mock-upx)
+      - [Encabezado y Navegación](#encabezado-y-navegación)
+      - [Sección de Descripción](#sección-de-descripción)
+      - [Nuestros Servicios](#nuestros-servicios)
+      - [Nuestros Proyectos](#nuestros-proyectos)
+      - [Pie de Página](#pie-de-página)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+      - [4.6.3.1 Company Management Boundend Context](#4631-company-management-boundend-context)
+      - [4.6.3.2 Daily Activties Boundend Context](#4632-daily-activties-boundend-context)
+      - [4.6.3.3 Dashbobard Boundend Context](#4633-dashbobard-boundend-context)
+      - [4.6.3.4 Feeing Boundend Context](#4634-feeing-boundend-context)
+      - [4.6.3.5 Notifications Boundend Context](#4635-notifications-boundend-context)
+      - [4.6.3.6 Poles Information and Desplegation Boundend Context](#4636-poles-information-and-desplegation-boundend-context)
+      - [4.6.3.7 Project Management Boundend Context](#4637-project-management-boundend-context)
+      - [4.6.3.8 Register Boundend Context](#4638-register-boundend-context)
+      - [4.6.3.9 Requests Boundend Context](#4639-requests-boundend-context)
+      - [4.6.3.10 Task Boundend Context](#46310-task-boundend-context)
+      - [4.6.3.11 Tickets Boundend Context](#46311-tickets-boundend-context)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams.](#471-class-diagrams)
+    - [Clases Principales](#clases-principales)
+      - [Usuario](#usuario)
+      - [Proyecto](#proyecto)
+      - [Ticket](#ticket)
+      - [Documento](#documento)
+      - [Georreferencia](#georreferencia)
+    - [Relaciones](#relaciones)
+    - [Métodos Clave](#métodos-clave)
+    - [Automatización y Escalabilidad](#automatización-y-escalabilidad)
+    - [4.7.2. Class Dictionary.](#472-class-dictionary)
+  - [4.8. Database Design.](#48-database-design)
+    - [4.8.1. Database Diagram.](#481-database-diagram)
+    - [Entidades Principales](#entidades-principales)
+      - [Usuarios](#usuarios)
+      - [Proyectos](#proyectos)
+      - [Tickets](#tickets)
+      - [Documentos y Reportes](#documentos-y-reportes)
+      - [Georreferenciación](#georreferenciación)
+    - [Relaciones](#relaciones-1)
+    - [Automatización y Soporte de Decisiones](#automatización-y-soporte-de-decisiones)
+    - [Escalabilidad y Flexibilidad](#escalabilidad-y-flexibilidad)
+- [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment-1)
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
@@ -208,9 +313,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísiticas](#533-evaluaciones-según-heurísticas)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-The-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
     - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
@@ -2325,7 +2430,7 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 |-----------------------------------|-------------------------------------|
 | Sprint #                          | 3                                   |
 | Sprint Planning Background        | -                                   |
-| Date                              | 2024-05-01                          |
+| Date                              | 2024-06-01                          |
 | Time                              | 18:00 PM                            |
 | Location                          | Virtual via Google Meet             |
 | Prepared By                       | Ybañez Esquerre, Miguel Angel     |
@@ -2333,7 +2438,7 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 | Sprint 1 - Review Summary         | Se realizo el landing page con Angular siguientdo as guias de estilo previas     |
 | Sprint 1 - Retrospective Summary | Mejoramos los User Stories, Bounded Context y tambien el diseño de diagrama de clases     |
 | Sprint Goal & User Stories        | -                                   |
-| Sprint 1 Goal                     | El objetivo del presente Sprint es en desarrollar el fronted de la aplicación web y corregir los errores del sprint anterior |
+| Sprint 1 Goal                     | El objetivo del presente Sprint es corregir el web application y empezar con el desarrollo del API REST |
 | Sprint 1 - Velocity               | El equipo puede aceptar 25 Story Points          |
 | Sprint 1 - Story Points           | La suma de los Story Points de los User Stories que se atenderá es 18 |
 
@@ -2342,9 +2447,9 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 <table>
 <tbody>
     <tr>
-        <th valign="top">Sprint 2</th>
+        <th valign="top">Sprint 3</th>
         <th colspan="7" valign="top">
-        Sprint: Implementar el frontend de las principales historias de usuario del product backlog </th>
+        Sprint: corregir el frontend e implementar el API REST de las principales historias de usuario del product backlog </th>
     </tr>
     <tr>
         <td colspan="2" valign="top">User Story</td>
@@ -2389,10 +2494,10 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
         <td rowspan="1" valign="top">HU-01</td>
         <td rowspan="1" valign="top">Registro de nuevo Usuario</td>
         <td valign="top">01</td>
-        <td valign="top">creación de nuevo usuario</td>
+        <td valign="top">Creación del Usuario desde el frontend enviandolo hasta el backend</td>
         <td valign="top">implementar la creación de nuevo usuario al api atraves del registro</td>
         <td valign="top">3</td>
-        <td valign="top">Avellaneda Ramos, Carlos Edward</td>
+        <td valign="top">Ybañez Esquerre, Miguel Angel</td>
         <td valign="top">Done</td>
     </tr>
     <tr>
