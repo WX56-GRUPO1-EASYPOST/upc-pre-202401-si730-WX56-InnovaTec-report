@@ -2592,9 +2592,150 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
+Entrevista Tecnicos
+
+- Información personal
+  Nombres y apellidos
+  
+- Información complementaria
+  ¿Cómo es que empiezan el proyecto?
+  ¿Qué muestran el cliente cuando termine el proyecto?
+  ¿Se le presentan el cliente mediante un Word con las capturas de google earth?
+  
+- Presentación del proyecto y preguntas técnicas
+  
+  ¿Le parece bien para que el cliente lo pueda ver si te web ya pueda ver este el recorrido, cómo vas y si ha sido probado por el estado?
+  Luego de realizar el diseño y verificar los permisos de cartera ¿qué más faltaría para culminar el proyecto?
+  ¿En el proceso se requiere automatizar una parte del proyecto?
+  ¿funcionaria un proceso de ticket en la web para facilitar y tener un control de los procesos?
+  ¿La parte del proceso de macros que tiene el proceso ayudaría que el sistema lo realice?
+  
+
+Entrevista Clientes
+
+- Información personal
+  Nombres y apellidos
+  
+- Información complementaria
+  ¿Tu conoces alguna de estas necesidades de instalaciones de postes?
+  ¿Qué se debería detallar en esta etapa del proyecto?
+  ¿Que pasaría si no se hace el respectivo seguimiento a esta instalacion?
+  
+- Presentación del proyecto
+  ¿Qué le pareció la idea de poder realizar la solicitud de instalación de postes desde nuestra aplicacion web?
+  ¿Qué es lo que le parecería más útil o valioso de nuestra aplicación?
+  ¿Crees que nuestra aplicación ofrece transparencia en el proceso de instalacion?
+  ¿Hay algún otro servicio o característica que le gustaría ver agregado a nuestra aplicacion web en un futuro?
+
+
 ### 5.3.2. Registro de Entrevistas
+
+   **Entrevista #01: Alexandra Cabezas**
+   
+   [Link a la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/EdgUNHn_M1NGuVLsWNM9P3gBwY_c80j0T9PRGiibCC65oQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eIajb0)
+   
+   <img src="./images/sprint4/validationInterviewAlexandra.png" alt="Validation Interview Alexandra">
+
+ **Entrevista #01: Anthony Huerta**
+   
+   [Link a la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201420422_upc_edu_pe/Ee4o9-yMkidJnPIGXICKf98BvMzLnKlw4szWO8pjEJH8VQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oIFQWf)
+   
+   <img src="./images/sprint4/validationInterviewAnthony.png" alt="Validation Interview Alexandra">
+
 ### 5.3.3. Evaluaciones según heurísticas
+
+**Usability - Inclusive Design - Information Architecture**
+
+<br>
+
+**Site o App a evaluar:**
+EasyPost
+<br>
+
+**Tareas a evaluar:**
+1. Registrar usuario como **cliente** o **empresa** dentro de la aplicación web
+2. Visualizar entregable (como **empresa**)
+3. Visualizar nuevo proyecto (como **empresa**)
+4. Crear solicitud de nuevo proyecto (como **cliente**)
+5. Visualizar entregables (como **cliente**)
+6. Enviar ticket (como **cliente**)
+7. Enviat mensaje (como **empresa**)
+
+<br>
+
+**ESCALA DE SEVERIDAD:**
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+|**Nivel**|**Descripción**|
+| - | - |
+|1|Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase.|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+<br>
+
+**TABLA DE RESUMEN:**
+
+|N|Problema|Escala de severidad|Heurística/Principio violada(o)|
+| - | - | - | - |
+|1|El segmento de creación de ticket no permite agregar una imagen|
+|2|El contenido de la interfaz del Dashboar presenta muchos espacios en blanco sin datos irrelevante|
+
+<br>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+<br>
+
+**Problema 1: El segmento de creación de ticket no permite agregar una imagen**
+
+Severidad: 2
+
+Heurística violada: Usability: Información perceptible
+
+Problema:
+
+En la parte de creación ticket no tiene un recuadro para subir un imagen que sustente el ticket.
+
+<img src="./images/sprint4/Generar-Ticket.png" alt="ticket">
+
+<br>Recomendación:
+
+Es una parte del diseño que puede ser simplemente agregar opcion para ingresar una imagen o evidencia que sustente el reclamo del cliente.
+
+<br><br>
+
+**Problema #2: El contenido de la interfaz del Dashboar presenta muchos espacios en blanco sin datos irrelevante.**
+
+Severidad: 3
+
+Heurística violada: Usability: Diseño estético y minimalista
+
+Problema:
+
+Al entrar a la aplicación, en las primeras impresiones del segmento de Dashboard se nota que el contenido tiene muchos espacion en blanco y hace notar que se puede utilizar para otra imformación  relevante.
+
+<img src="./images/sprint4/Espacios-blanco.png" alt="Contenido">
+
+<br>Recomendación:
+
+Este problema afecta la experiencia del usuario debido a que tiene un dashboard con espacion sin contenido de mayor importancia.
+
+<br>
+
+
 ## 5.4. Video About-The-Product
+
+ [Link About-The-Product](https://youtu.be/aDXqsFZSMMw)
+
+ ### Video About-the-Team
+
+ [Link About-The-Team](https://youtu.be/RCks6O4unWY)
+
+  ### Video Exposicion Final
+
+ [Link Exposicion Final]()
 
 
 # Conclusiones
@@ -2606,7 +2747,12 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 
 - Desarrollo de la página de inicio en base al sprint actual, con cada miembro del equipo trabajando en diferentes secciones para crear una experiencia integral que facilite a los usuarios acceder a la aplicación web.
 
-### Video About-the-Team
+- La combinación del uso de Vue para el desarrollo del frontend y Figma para el diseño visual resultó en una interfaz de usuario eficiente y atractiva. Figma permitió crear prototipos detallados y precisos, los cuales sirvieron como una guía visual clara para los desarrolladores. Esto facilitó la implementación en Vue, asegurando que el diseño y la funcionalidad estuvieran perfectamente alineados. Esta sinergia no solo mejoró la estética y usabilidad de la plataforma, sino que también agilizó el proceso de desarrollo, permitiendo una integración más fluida de los componentes y una experiencia de usuario más coherente y satisfactoria.
+
+- La implementación de Domain Driven Design (DDD) y el desarrollo de una arquitectura de software sólida y escalable fueron cruciales para la estabilidad y el rendimiento de nuestra aplicación. Esta estrategia nos permitió enfrentar problemas complejos de forma estructurada, facilitando la incorporación de funciones clave y garantizando la integridad del sistema. La clara división de responsabilidades y la gestión eficiente de los cambios contribuyeron a una plataforma confiable y preparada para el crecimiento futuro.
+
+- La implementación del backend utilizando C# y la integración de herramientas de gestión de bases de datos como Workbench fueron fundamentales para asegurar la eficiencia y robustez de nuestra aplicación. Workbench facilitó la visualización y gestión de las bases de datos, permitiendo un manejo más eficiente de las consultas y la optimización de la estructura de los datos. Esto, combinado con los principios de Domain Driven Design, resultó en una arquitectura de backend sólida, escalable y fácil de mantener, mejorando significativamente el rendimiento y la capacidad de respuesta del sistema.
+
 
 ---
 # Bibliografía
