@@ -312,6 +312,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#523-sprint-3)
+      - [5.2.4.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.4.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+      - [5.2.4.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+      - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2588,6 +2597,173 @@ Las actividades para el presente Sprint se repartieron en base a la priorizació
 
 <img src="" alt="insight3"/>
 <img src="" alt="commits3"/>
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4
+| Property                          | Value                               |
+|-----------------------------------|-------------------------------------|
+| Sprint #                          | 4                                   |
+| Sprint Planning Background        | -                                   |
+| Date                              | 2024-06-26                          |
+| Time                              | 18:00 PM                            |
+| Location                          | Virtual via Google Meet             |
+| Prepared By                       | Ybañez Esquerre, Miguel Angel     |
+| Attendees                         | Ybañez Esquerre, Miguel Angel / Quilla Luyo, Jorge Gerardo / Ticona Luque, Rony Piero / Avellaneda Ramos, Carlos Edward |
+| Sprint 1 - Review Summary         | En el sprint 3, se han desarrollado el backend en los bounnded context de autenticacion, perfiles, creacion de ticket y seguimiento de proyecto.     |
+| Sprint 1 - Retrospective Summary | Mejoramos los User Stories, Bounded Context y tambien el diseño de diagrama de clases     |
+| Sprint Goal & User Stories        | -                                   |
+| Sprint 1 Goal                     | El objetivo del presente Sprint terminar con el total del backend y conectarlo al fronted |
+| Sprint 1 - Velocity               | El equipo puede aceptar 25 Story Points          |
+| Sprint 1 - Story Points           | La suma de los Story Points de los User Stories que se atenderá es 18 |
+
+#### 5.2.4.2. Sprint Backlog 4
+
+<table>
+<tbody>
+    <tr>
+        <th valign="top">Sprint 4</th>
+        <th colspan="7" valign="top">
+        Sprint: corregir el frontend e implementar el API REST de las principales historias de usuario del product backlog </th>
+    </tr>
+    <tr>
+        <td colspan="2" valign="top">User Story</td>
+        <td colspan="6" valign="top">Work-Item / Task</td>
+    </tr>
+    <tr>
+        <td valign="top">Id</td>
+        <td valign="top">Title</td>
+        <td valign="top">Id</td>
+        <td valign="top">Title</td>
+        <td valign="top">Description</td>
+        <td valign="top">Estimation (Hours)</td>
+        <td valign="top">Assigned To</td><td valign="top"><p dir="auto">Status </p><p dir="auto">(To-do / </p><p dir="auto">InProcess / </p><p dir="auto">To Review / </p><p dir="auto">Done)</p></td>
+    </tr>
+    <tr>
+        <td rowspan="3" valign="top">HU-07</td>
+        <td rowspan="3" valign="top">Recepción de Solicitudes Cotización</td>
+        <td valign="top">07\.1</td>
+        <td valign="top">Implementar lista de solicitudes</td>
+        <td valign="top">Implementar una lista que contendra las solicitudes del cliente hacia cierta empresa </td>
+        <td valign="top">2</td>
+        <td valign="top">Ybañez Esquerre. Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">07\.2</td>
+        <td valign="top">Extraer los datos del cliente</td>
+        <td valign="top">Se mostrará los datos del cliente que realizo la solicitud y mostrara sus datos registrados</td>
+        <td valign="top">2</td>
+        <td valign="top">Ybañez Esquerre. Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td valign="top">07\.3</td>
+        <td valign="top">Mostrar ubicación en un mapa </td>
+        <td valign="top">Se mostrara la ubicacion aproximada de donde se busca el servicio de instalacion a travez de google maps</td>
+        <td valign="top">3</td>
+        <td valign="top">Ybañez Esquerre. Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-01</td>
+        <td rowspan="1" valign="top">Registro de nuevo Usuario</td>
+        <td valign="top">01</td>
+        <td valign="top">Creación del Usuario desde el frontend enviandolo hasta el backend</td>
+        <td valign="top">implementar la creación de nuevo usuario al api atraves del registro</td>
+        <td valign="top">3</td>
+        <td valign="top">Ybañez Esquerre, Miguel Angel</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-02</td>
+        <td rowspan="1" valign="top">Inicio de Sesión de Usuario</td>
+        <td valign="top">02</td>
+        <td valign="top">implementar el inicio de sesion</td>
+        <td valign="top">realizar peticiones al Api para iniciar sesion con usuario existente </td>
+        <td valign="top">3</td>
+        <td valign="top">Avellaneda Ramos, Carlos Edward</td>
+        <td valign="top">Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-09</td>
+        <td rowspan="1" valign="top">Comunicación con los clientes</td>
+        <td valign="top">09</td>
+        <td valign="top">realizar un chat con los clientes que tenga la empresa</td>
+        <td valign="top">hacer un chat con los clientes relacionados a la empresa en tiempo real</td>
+        <td valign="top">3</td>
+        <td valign="top">Quilla Luyo, Jorge Gerardo</td>
+        <td valign="top">in Progress</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-08</td>
+        <td rowspan="1" valign="top">Gestión de Proyectos Asignados</td>
+        <td valign="top">09</td>
+        <td valign="top">realizar un panel de gestion de proyectos</td>
+        <td valign="top">implementar un dashboard donde se pueda visualizar los proyectos aceptados por la empresa, para su correcto desarrollo</td>
+        <td valign="top">3</td>
+        <td valign="top">Ticona Luque, Rony Piero</td>
+        <td valign="top">in Progress</td>
+    </tr>
+    <tr>
+        <td rowspan="1" valign="top">HU-13</td>
+        <td rowspan="1" valign="top">Mejora de la navegación</td>
+        <td valign="top">13</td>
+        <td valign="top">agregar un toolbar para la navegación</td>
+        <td valign="top">implementar un toolbar que cuente con los botones que redirijan al usuario hacia donde quiere ir</td>
+        <td valign="top">3</td>
+        <td valign="top">Chavez Guerrero, Luis Sebastian</td>
+        <td valign="top">in Progress</td>
+    </tr>
+    </tbody>
+</table>
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+| Repository             | Branch  | Commit Id | Commit Message              | Commit Message Body | Commited on (Date) |
+|------------------------|---------|-----------|-----------------------------|---------------------|---------------------|
+| easypost-frontend-app   | develop | 1950124   | feat: home projects | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | d0d10b9   | fix: route toolbar | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | 60daed6   | feat: home structure added | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | 9ed1c8a   | feat: contact added | -                   | 02/05/2024          |
+| easypost-frontend-app   | develop | 29d31d1   | fix: toolbar and footer component | -                   | 02/05/2024          |
+| easypost-frontend-app   | Carlos_Avellaneda | 21c9371   | fix: rol buttons on register component | -                   | 02/05/2024          |
+| easypost-frontend-app   | Miguel_Ybañez | 0b885e7   | fix: register | -                   | 02/05/2024          |
+| easypost-frontend-app   | Miguel_Ybañez | 5718038   | Feat: request component | -                   | 02/05/2024          |
+
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+Esta sección no fue posible integrar en la presente entrega.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+En este apartado se hace presenta la ejecución del frontend del producto solución EasyPost.
+
+<img src="./images/video.PNG" alt="video"/>
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b298_upc_edu_pe/EfKkL2fXUyFKkaXs9ruERrABCalHFaJhKwcZhiU_905iYg?e=O8oPvA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Se utilizo JSON SERVER para la implementacion de un API:
+
+| Endpoint       | Detalles                                                                                            |
+|----------------|-----------------------------------------------------------------------------------------------------|
+| Usuarios          | En este endpoint se representan los datos del usuario.                                 |
+| requests  | En este endpoint se muestra los detalles de la solicitud                                          |
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+En esta entrega no fue posible el despliegue de la aplicación web ni del JSON SERVER.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Las actividades para el presente Sprint se repartieron en base a la priorización de historias de usuario dentro del producto backlog referidas a las funcionalidades principales de la aplicación web, para ello, se realizaron primero branches por features abordados dentro del sprint para que cada integrante trabaje en esas branches y luego realice el push para ver los cambios. De esta manera, el desarrollo del frontend fue organizada y eficiente. A continuación, se mostrarán las evidencias de los commits:
+
+<img src="" alt="insight3"/>
+<img src="" alt="commits3"/>
+
 
 
 ## 5.3. Validation Interviews
